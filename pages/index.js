@@ -267,8 +267,8 @@ class Jquery extends Component{
                                     </div>
                                     <div className="pt-3">
                                         <h5 className="account pl-4 ml-2">Accountable to the</h5>
-                                        <h1 className="dreams pl-4 ml-2">Dreams that matter m<img src='./images/O_logo.png'
-                                                                                                  className="layer_121 mr-1"/>st
+                                        <h1 className="dreams pl-4 ml-2">Dreams that matter m
+                                            <img src='./images/O_logo.png' className="layer_121 mr-1"/>st
                                         </h1>
                                     </div>
                                     <div className="ml-4 sct">

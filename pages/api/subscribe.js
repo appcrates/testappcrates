@@ -25,7 +25,7 @@ const subscribe = ( email ) => {
             .then(response => {
                 return response.json()})
             .then(data => {
-                // console.log('Data Rec'd:', data);
+                console.log(data);
             }).catch(error => console.log(error))
     })};
 
@@ -35,8 +35,8 @@ export default async (req, res) => {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 200;
         res.send(req);
-        const result = await subscribe(req.body);
-        res.end(result)
+        await subscribe(req.body);
+        res.end();
     } else {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 200;

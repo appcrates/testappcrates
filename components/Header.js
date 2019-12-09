@@ -20,21 +20,22 @@ const Header = () => {
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <button className="bnt-23">Join Us</button>
                             <ul className="navbar-nav">
                                 <li className="nav-item ml-2">
-                                    <Link href="/"><h6 className="nav-link">Home</h6></Link>
+                                    {/*<Link to="/"><h6 className="nav-link">Home</h6></Link>*/}
                                 </li>
-                                {/*<li className="nav-item ml-1">*/}
-                                {/*    /!*<Link href="/apply"><h6 className="nav-link project">Apply</h6></Link>*!/*/}
-                                {/*</li>*/}
-                                {/*<li className="nav-item ml-1">*/}
-                                {/*    /!*<Link to="/OurValues"><h6 className="nav-link project" href="#">Our Values</h6></Link>*!/*/}
-                                {/*</li>*/}
-                                {/*<li className="nav-item">*/}
-                                {/*    /!*<h6 className="nav-link project_1" href="#">Application</h6>*!/*/}
-                                {/*</li>*/}
+                                <li className="nav-item ml-1">
+                                    {/*<Link to="/"><h6 className="nav-link project" href="#">WHy This Project?</h6></Link>*/}
+                                </li>
+                                <li className="nav-item ml-1">
+                                    {/*<Link to="/OurValues"><h6 className="nav-link project" href="#">Our Values</h6></Link>*/}
+                                </li>
+                                <li className="nav-item">
+                                    {/*<h6 className="nav-link project_1" href="#">Application</h6>*/}
+                                </li>
                                 <li className="nav-item ">
-                                    <Link href="/apply"><button className="bnt-23">Join Us</button></Link>
+                                    {/*<button className="bnt-23">Join Us</button>*/}
                                 </li>
                             </ul>
                         </div>
