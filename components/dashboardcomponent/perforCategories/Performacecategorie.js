@@ -30,8 +30,8 @@ class PorformanceCategories extends Component{
                             </div>
                         </div>
                         <div className="row mt-1">
-                            <div className="col-md-6 pr-lg-1">
-                                <div className="bg-color-1 pl-3 pr-3 pb-2">
+                            <div className="col-md-6 pr-md-1">
+                                <div className="bg-color-1 pl-lg-3 pl-1 pr-lg-3 pl-1 pb-2">
                                     <h6 className="select_range">selected range</h6>
                                     <table className="table mt-4">
                                         <tbody>
@@ -79,7 +79,7 @@ class PorformanceCategories extends Component{
                                     </table>
                                 </div>
                             </div>
-                            <div className="col-md-6 pl-lg-1">
+                            <div className="col-md-6 pl-md-1">
                                 <div className="bg-color-2 pl-3 mt-md-0 mt-2 pr-3 pb-2">
                                     <h6 className="select_range">lifeTime</h6>
                                     <table className="table mt-4">
@@ -194,9 +194,9 @@ class PorformanceCategories extends Component{
                                     <img src="./dashboard/notes_icon.png" className="pl-2"/>
                                 </div>
                                 <div className="col-md-6 col-6 pl-lg-0">
-                                    <h2 className="notes_about_the_week pt-3 mt-2">notes about the week</h2>
+                                    <h2 className="notes_about_the_week pt-3 mt-lg-2 pl-lg-0 pl-3">notes about the week</h2>
                                 </div>
-                                <div className="col-md-4 text-lg-right col-4 pr-lg-4 pt-3 mt-1">
+                                <div className="col-md-4 text-lg-right col-4 pr-lg-4 pl-md-auto pl-0 pt-3 mt-1">
                                     <span className="pr-1 timestamp">Timestamp</span>
                                     <img src="./dashboard/Group1.png" className="group_122 mr-2" id="Data_toggle" />
                                 </div>
@@ -341,8 +341,8 @@ class PorformanceCategories extends Component{
                             width: 100%;
                             margin-top:10px;
                         }
-                        .group_122{
-                            width: 25%;
+                        .bg-color-3{
+                            padding-top:0px;
                         }
                     }
                     @media only screen and (max-width: 810px){
@@ -354,6 +354,25 @@ class PorformanceCategories extends Component{
                         }
                         .group_122{
                             width: 25%;
+                        }
+                        .bg-color-3{
+                            padding-top: 2px;
+                        }
+                        th{
+                            vertical-align: baseline;
+                        }
+                        td{
+                            vertical-align: baseline;
+                        }
+                    }
+                    @media only screen and (min-width: 1600px){
+                        .focus{
+                            width: 430px;
+                        }
+                    }
+                    @media only screen and (min-width: 1900px){
+                        .focus{
+                            width: 530px;
                         }
                     }
                     

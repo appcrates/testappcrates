@@ -21,12 +21,12 @@ class DashboardChart extends Component{
 
     render() {
         return (
-            <div className="container-fluid bg-color">
-                <div className="bg-color-1 mr-4">
+            <div className="container-fluid bg-color pb-5">
+                <div className="bg-color-1 mr-lg-4 pb-5">
                     <div className="row pt-4">
                         <div className="col-md-6">
                             <Chart
-                             className="pl-5 pr-5"
+                             className="pl-lg-5 pr-lg-5 pl-3 pr-3"
                                 height={'500'}
                                 chartType="Line"
                                 loader={<div></div>}
@@ -68,17 +68,17 @@ class DashboardChart extends Component{
                                 rootProps={{ 'data-testid': '4' }}
                                 />
                                 <div className="row pt-3 pl-4">
-                                    <div className="col-md-4 pl-4">
+                                    <div className="col-md-4 col-6 pl-lg-4">
                                         <img src="./dashboard/blue.png" className="goal_img" />
                                         <span className="goal_completed">Goals Completed</span>
                                     </div>
-                                    <div className="col-md-6 pl-0">
-                                        <img src="./dashboard/green.png" className="goal_img_1" />
+                                    <div className="col-md-6 col-6 pl-lg-0">
+                                        <img src="./dashboard/green.png" className="goal_img_4" />
                                         <span className="goal_completed">Goals Set</span>
                                     </div>
                                 </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 mt-md-0 mt-5">
                         <Chart
                                width={'100%'} 
                                 height={'500'}
@@ -138,7 +138,7 @@ class DashboardChart extends Component{
                         </div>
                     </div>
                     <div className="row pt-5 pl-4 pr-4 mt-5">
-                        <div className="col-12">
+                        <div className="col-12 pl-lg-auto pr-lg-auto pl-0 pr-0">
                             <Chart
                                width={'100%'} 
                                 height={'500'}
@@ -164,7 +164,7 @@ class DashboardChart extends Component{
                                     [new Date(2014, 11), -0.2, 4.5],
                                 ]}
                                 options={{
-                                    height: 500,
+                                    height: 450,
                                     series: {
                                         0: { axis: '' },
                                         1: { axis: '' },
@@ -188,7 +188,7 @@ class DashboardChart extends Component{
                                         <span className="goal_completed">Clarity</span>
                                         <img src="./dashboard/yellow.png" className="goal_img_3 ml-3" />
                                         <span className="goal_completed">Focus</span>
-                                        <img src="./dashboard/dark_blue.png" className="goal_img_3 ml-3" />
+                                        <img src="./dashboard/dark_blue.png" className="goal_img_3 ml-lg-3" />
                                         <span className="goal_completed">Accountability</span>
                                     </div>
                                 </div>
@@ -217,11 +217,38 @@ class DashboardChart extends Component{
                         .goal_img_1{
                             width: 9%;
                         }
+                        .goal_img_4{
+                            width: 9%;
+                        }
                         .goal_img_2{
                             width: 11%;
                         }
                         .goal_img_3{
                             width: 4%;
+                        }
+                        @media only screen and (max-width:800px){
+                            .bg-color-1{
+                                margin-left: 0px !important;
+                            }
+                            
+                        }
+                        @media only screen and (max-width:440px){
+                            .bg-color-1{
+                                margin-left: 0px !important;
+                            }
+                            .goal_img_2{
+                                width: 5%;
+                            }
+                            .goal_img_1{
+                                width: 5%;
+                                margin-left:15px 
+                            }
+                            .goal_img_4{
+                                width: 13%;
+                            }
+                            .goal_completed{
+                                font-size: 13px;
+                            }
                         }
                     `}
                     </style>

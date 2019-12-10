@@ -22,13 +22,13 @@ class DashboardHeader extends Component{
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item d-inline-block">
+                                <li className="nav-item">
                                     <img src="./dashboard/search.png" />
                                 </li>
-                                <li className="nav-item d-inline-block">
+                                <li className="nav-item">
                                     <img src="./dashboard/settings.png" />
                                 </li>
-                                <li className="nav-item d-inline-block dropdown">
+                                <li className="nav-item dropdown">
                                     <a className="nav-link p-0 dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img src="./dashboard/Layer3.png" className="layer3" />
                                         <div className="notify">
@@ -54,20 +54,22 @@ class DashboardHeader extends Component{
                                         </div>
                                         <div className="dropdown float-right pl-lg-2 pl-1 pt-2">
                                             <a href="" className="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <img src="./dashboard/Group1.png"  className="group_1"/>
+                                                <img src="./dashboard/Group1.png"  className="group_1 float-right"/>
                                             </a>
-                                                <div className="dropdown-menu dropdown-menu-right p-0" style={dropset}>
+                                                <div className="dropdown-menu dropdown-menu-right dorpset p-0" style={dropset}>
                                                     <a className="dropdown-item" href="#">Profile</a>
                                                     <a className="dropdown-item" href="#">Log Out</a>
                                                 </div>
                                         </div>
                                     </div>
+                                    <div className="clear-fix"></div>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                 </header>
                 <style jsx>{`
+
                     .bg_img{
                         background-image: url(./dashboard/header.png);
                         background-position: center;
@@ -140,16 +142,18 @@ class DashboardHeader extends Component{
                         border-radius: 100%;
                         margin: 4px 4px;
                     }
+                    .clear-fix{
+                        clear:both;
+                    }
                     @media only screen and (max-width: 440px){
-                        // .nav-item{
-                        //     display: inline-block;
-
-                        // }
-                        // .navbar-nav{
-                        //     display: inline-flex !important;
-                        // }
                         ul{
-                            display: inline-block;
+                            display: block;
+                        }
+                        .dorpset{
+                            margin-top: 63px !important;
+                        }
+                        .notify{
+                            left: 13px;
                         }
                     }
             `}</style>

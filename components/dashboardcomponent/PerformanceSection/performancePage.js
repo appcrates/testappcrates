@@ -45,7 +45,9 @@ class PorformancePage extends Component{
                             </div>
                             <div className="col-md-9 col-8 pl-lg-0 mt-lg-4 pt-xl-2 mt-2">
                                 <h6 className="performance_title">Performance dashboard</h6>
-                                <h6 className="member">Member: <span className="pr-3 example_member">Example Member</span><span className="border_left pl-3 member">ribe:</span><span className="example_member"> Freedom Entrepreneurs 7pm PT</span></h6>
+                                <h6 className="member">Member: <span className="pr-3 example_member">Example Member</span>
+                                <span className="border_left pl-3 member">ribe:</span>
+                                <span className="example_member"> Freedom Entrepreneurs 7pm PT</span></h6>
                             </div>
                         </div>
                     </div>
@@ -66,7 +68,6 @@ class PorformancePage extends Component{
                                     </button>
                                 </div>
                             </DatetimeRangePicker>
-                            {/* <i className="fa fa-calendar float-right mt-3 pt-1 pr-3"></i> */}
                         </div>
                        
                     </div>
@@ -144,7 +145,17 @@ class PorformancePage extends Component{
                     @media only screen and (max-width: 440px){
                         .calendar{
                             width: 100%;
-
+                        }
+                        .foucs{
+                            width: 300px;
+                        }
+                    }
+                    @media only screen and (max-width: 810px){
+                        .foucs{
+                            width: 260px;
+                        }
+                        .calendar{
+                            width: 100%;
                         }
                     }
                     `}</style>
