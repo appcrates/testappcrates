@@ -478,6 +478,15 @@ class CardsBlog extends Component{
                             width: 80%;
                         }
                     }
+                    @media only screen and (max-width: 800px){
+                        .pervious {
+                            margin-left: 0px !important;
+                        }
+                        .next {
+                            margin-right: 0px !important;
+                        }
+                    }
+                    
                 `}</style>
             </div>
         )
