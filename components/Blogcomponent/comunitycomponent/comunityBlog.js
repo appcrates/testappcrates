@@ -14,7 +14,7 @@ class ComunityBlog extends Component{
             clientId: 'e5ac6df224d338e950fe848c4192ce40',
             accessToken: '14562296571.1677ed0.26cf3e0acecd44628f932b41cd746563',
             resolution: 'standard_resolution',
-            template: '<div className="col-md-2 mt-2 col-6"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" className="layer_img w-100"/></a></div>',
+            template: '<div class="col-md-2 mt-2 col-6"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="layer_img w-100"/></a></div>',
             sortBy: 'most-recent',
             limit: 7,
             links: false
@@ -40,7 +40,9 @@ class ComunityBlog extends Component{
                     </div>
                     
                     <div className="container-fluid mt-5">
-                        <div className="row" id="instafeed"></div>
+                        <div className="row" id="instafeed">
+                            
+                        </div>
                     </div>
                     <div className="container container_1 pt-5">
                         <div className="border_top"></div>

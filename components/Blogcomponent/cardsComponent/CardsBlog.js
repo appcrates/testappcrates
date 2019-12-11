@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Pagination from "react-js-pagination";
-import InstaFeed_1 from 'instafeed.js';
+
 
 class CardsBlog extends Component{
 
@@ -23,18 +23,6 @@ class CardsBlog extends Component{
                 $(this).addClass('active');
             });
         });
-        var userFeed = new InstaFeed_1({
-            get: 'user',
-            userId: '14562296571',
-            clientId: 'e5ac6df224d338e950fe848c4192ce40',
-            accessToken: '14562296571.1677ed0.26cf3e0acecd44628f932b41cd746563',
-            resolution: 'standard_resolution',
-            template: '<div className="col-md-4 mt-2"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" className="layer_img w-100"/></a></div>',
-            sortBy: 'most-recent',
-            limit: 7,
-            links: false
-          });
-          userFeed.run();
     }
     render() {
         return (
@@ -148,7 +136,7 @@ class CardsBlog extends Component{
                                 <nav aria-label="Page navigation example ">
                                     <ul className="pagination justify-content-left mt-5 pt-4">
                                         <li className="page-item disabled">
-                                            <a className="page-link pervious" href="#" tabindex="-1"><i className="fa fa-angle-left arrow1"></i>Previous
+                                            <a className="page-link pervious" href="#"><i className="fa fa-angle-left arrow1"></i>Previous
                                             
                                             </a>
                                         </li>
@@ -256,10 +244,26 @@ class CardsBlog extends Component{
                             <div>
                                 <h1 className="categories mt-5 pt-lg-3 mb-2">instagram</h1>
                                 <img src="./images/line.png" className="" />
-                                <div className="container-fluid">
-                                    <div className="row" id="instaFeed_1"></div>
+                                <div className="row mt-4 pt-2">
+                                    <div className="col-md-4 pr-0 mt-2">
+                                        <img src="./blog/insta_img1.png" className="w-100"/>
+                                    </div>
+                                    <div className="col-md-4 pr-0 mt-2">
+                                        <img src="./blog/insta_img2.png" className="w-100"/>
+                                    </div>
+                                    <div className="col-md-4 mt-2 pr-0">
+                                        <img src="./blog/insta_img3.png" className="w-100"/>
+                                    </div>
+                                    <div className="col-md-4 pr-0 mt-2">
+                                        <img src="./blog/insta_img4.png" className="w-100"/>
+                                    </div>
+                                    <div className="col-md-4 pr-0 mt-2">
+                                        <img src="./blog/insta_img5.png" className="w-100"/>
+                                    </div>
+                                    <div className="col-md-4 mt-2 pr-0">
+                                        <img src="./blog/insta_img6.png" className="w-100"/>
+                                    </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -290,9 +294,6 @@ class CardsBlog extends Component{
                         font-weight: 600;
                         margin-top: 20px;
                         color: #949494;
-                    }
-                    .layer_img{
-                        width: 100%;
                     }
                     .card-text{
                         color: #656565;
