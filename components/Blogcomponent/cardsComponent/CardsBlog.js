@@ -256,7 +256,10 @@ class CardsBlog extends Component{
                             <div>
                                 <h1 className="categories mt-5 pt-lg-3 mb-2">instagram</h1>
                                 <img src="./images/line.png" className="" />
-                                <div className="row" id="instafeed"></div>
+                                <div className="container-fluid">
+                                    <div className="row" id="instafeed"></div>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
