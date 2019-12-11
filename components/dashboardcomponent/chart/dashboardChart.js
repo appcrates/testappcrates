@@ -1,21 +1,5 @@
 import React, { Component } from 'react';
-// import Highcharts from 'highcharts';
-// import HighchartsReact from 'highcharts-react-official';
 import { Chart } from "react-google-charts";
-
-// const options = {
-//     chart: {
-//       type: 'spline'
-//     },
-//     title: {
-//       text: ''
-//     },
-//     series: [
-//       {
-//         data: [1, 2, 1, 4, 3, 6]
-//       }
-//     ]
-//   };
 
 class DashboardChart extends Component{
 

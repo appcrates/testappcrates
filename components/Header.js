@@ -5,39 +5,36 @@ const Header = () => {
     return (
         <div>
             <Head>
-                <link rel="stylesheet"
-                      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                      crossOrigin="anonymous" />
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
                 <link rel="stylesheet" href="https://use.typekit.net/iav6lfa.css"/>
             </Head>
             <div className="navbar_1">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container">
-                        <Link href="/"><h6 className="navbar-brand ml-md-5 ml-0 pl-2"><img src='/images/header_logo.png' className="logoname"/></h6></Link>
+                        <h6 className="navbar-brand ml-md-5 ml-0 pl-2"><img src='/images/header_logo.png' className="logoname"/></h6>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <button className="bnt-23">Join Us</button>
-                            <ul className="navbar-nav">
+                            {/* <ul className="navbar-nav">
                                 <li className="nav-item ml-2">
-                                    {/*<Link to="/"><h6 className="nav-link">Home</h6></Link>*/}
+                                    <h6 className="nav-link">Home</h6>
                                 </li>
                                 <li className="nav-item ml-1">
-                                    {/*<Link to="/"><h6 className="nav-link project" href="#">WHy This Project?</h6></Link>*/}
+                                    <h6 className="nav-link project" href="#">Blog</h6>
                                 </li>
                                 <li className="nav-item ml-1">
-                                    {/*<Link to="/OurValues"><h6 className="nav-link project" href="#">Our Values</h6></Link>*/}
+                                    <h6 className="nav-link project" href="#">Our Values</h6>
                                 </li>
                                 <li className="nav-item">
-                                    {/*<h6 className="nav-link project_1" href="#">Application</h6>*/}
+                                    <h6 className="nav-link project_1" href="#">Application</h6>
                                 </li>
                                 <li className="nav-item ">
-                                    {/*<button className="bnt-23">Join Us</button>*/}
+                                    <button className="bnt-23">Join Us</button>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </nav>
