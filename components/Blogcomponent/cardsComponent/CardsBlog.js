@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Pagination from "react-js-pagination";
-import Instafeed from 'instafeed.js';
+import InstaFeed_1 from 'instafeed.js';
 
 class CardsBlog extends Component{
 
@@ -23,7 +23,7 @@ class CardsBlog extends Component{
                 $(this).addClass('active');
             });
         });
-        var userFeed = new Instafeed({
+        var userFeed = new InstaFeed_1({
             get: 'user',
             userId: '14562296571',
             clientId: 'e5ac6df224d338e950fe848c4192ce40',
@@ -257,7 +257,7 @@ class CardsBlog extends Component{
                                 <h1 className="categories mt-5 pt-lg-3 mb-2">instagram</h1>
                                 <img src="./images/line.png" className="" />
                                 <div className="container-fluid">
-                                    <div className="row" id="instafeed"></div>
+                                    <div className="row" id="instaFeed_1"></div>
                                 </div>
                                 
                             </div>
@@ -290,6 +290,9 @@ class CardsBlog extends Component{
                         font-weight: 600;
                         margin-top: 20px;
                         color: #949494;
+                    }
+                    .layer_img{
+                        width: 100%;
                     }
                     .card-text{
                         color: #656565;
