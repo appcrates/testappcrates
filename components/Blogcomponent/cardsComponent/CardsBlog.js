@@ -133,7 +133,7 @@ class CardsBlog extends Component{
                                 pageRangeDisplayed={5}
                                 onChange={this.handlePageChange}
                                 /> */}
-                                <nav aria-label="Page navigation example ">
+                                <nav aria-label="Page navigation example">
                                     <ul className="pagination justify-content-left mt-5 pt-4">
                                         <li className="page-item disabled">
                                             <a className="page-link pervious" href="#"><i className="fa fa-angle-left arrow1"></i>Previous
@@ -170,7 +170,7 @@ class CardsBlog extends Component{
                                     </ul>
                                 </nav>
                         </div>
-                        <div className="col-md-4 pl-lg-5">
+                        <div className="col-md-4 pl-lg-5 mt-lg-0 mt-5">
                             <div className="bg-color-1">
                                 <input type="text" className="form-control border-0 pb-3 m-0 float-left" placeholder="Search" />
                                 <i className="fa fa-search mt-1 arrow_2"></i>
@@ -479,10 +479,10 @@ class CardsBlog extends Component{
                         }
                     }
                     @media only screen and (max-width: 800px){
-                        .pervious {
+                        .pagin {
                             margin-left: 0px !important;
                         }
-                        .next {
+                        .pagin1 {
                             margin-right: 0px !important;
                         }
                     }
