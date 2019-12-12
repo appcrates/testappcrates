@@ -6,9 +6,9 @@ class CardsBlog extends Component{
 
     // constructor(props) {
     //     super(props);
-    //     this.state = {
-    //       activePage: 15
-    //     };
+    //         this.state = {
+    //         activePage: 1
+    //         };
     //   }
     
     // handlePageChange = (pageNumber) => {
@@ -32,9 +32,9 @@ class CardsBlog extends Component{
                     <div className="row">
                         <div className="col-md-8">
                             <div className="row ">
-                                <div className="col-4 bg-image-1 pr-0">
+                                <div className="col-md-4 bg-image-1 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -45,9 +45,9 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4 bg-image-2 pr-0">
+                                <div className="col-md-4 bg-image-2 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -58,9 +58,9 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4 bg-image-3 pr-0">
+                                <div className="col-md-4 bg-image-3 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -71,9 +71,9 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4 bg-image-4 pr-0">
+                                <div className="col-md-4 bg-image-4 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -84,9 +84,9 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4 bg-image-5 pr-0">
+                                <div className="col-md-4 bg-image-5 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -97,9 +97,9 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4 bg-image-6 pr-0">
+                                <div className="col-md-4 bg-image-6 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -110,9 +110,9 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4 bg-image-2 pr-0">
+                                <div className="col-md-4 bg-image-2 pr-0">
                                 </div>
-                                <div className="col-8 pr-0 bg-color pb-4">
+                                <div className="col-md-8 pr-0 bg-color pb-4">
                                     <div className="card-block px-3">
                                         <h6 className="card-title-1 pb-0 mb-0 pt-2">OCT, 22, 2019 
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
@@ -123,10 +123,11 @@ class CardsBlog extends Component{
                                 </div>
                             </div>
                             {/* <Pagination
+                                className=""
                                 activePage={this.state.activePage}
                                 itemsCountPerPage={10}
-                                prevPageText='prev'
-                                nextPageText='next'
+                                prevPageText='Prev'
+                                nextPageText='Next'
                                 firstPageText=''
                                 lastPageText=''
                                 totalItemsCount={450}
@@ -134,10 +135,9 @@ class CardsBlog extends Component{
                                 onChange={this.handlePageChange}
                                 /> */}
                                 <nav aria-label="Page navigation example">
-                                    <ul className="pagination justify-content-left mt-5 pt-4">
+                                    <ul className="pagination justify-content-left mb-0 mt-5">
                                         <li className="page-item disabled">
                                             <a className="page-link pervious" href="#"><i className="fa fa-angle-left arrow1"></i>Previous
-                                            
                                             </a>
                                         </li>
                                         <li className="page-item">
@@ -149,17 +149,15 @@ class CardsBlog extends Component{
                                         <li className="page-item">
                                             <a className="page-link border-0 number" href="#">3</a>
                                         </li>
-                                        <li className="page-item ">
+                                        <li className="page-item">
                                             <a className="page-link border-0 number" href="#">4</a>
                                         </li>
                                         <li className="page-item">
                                             <a className="page-link border-0 number" href="#">5</a>
                                         </li>
+                                        
                                         <li className="page-item">
-                                            <a className="page-link border-0 number" href="#">6</a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a className="page-link border-0 pagin1 number" href="#">7</a>
+                                            <a className="page-link border-0 pagin1 number" href="#">6</a>
                                         </li>
                                         
                                         <li className="page-item ">
@@ -480,10 +478,40 @@ class CardsBlog extends Component{
                     }
                     @media only screen and (max-width: 800px){
                         .pagin {
-                            margin-left: 0px !important;
+                            margin-left: 5px !important;
                         }
                         .pagin1 {
                             margin-right: 0px !important;
+                        }
+                        .bg-color{
+                            border-radius: 10px !important;
+                        }
+                        .bg-image-1{
+                            border-radius: 10px !important;
+                        }
+                        .bg-image-2{
+                            border-radius: 10px !important;
+                        }
+                        .bg-image-3{
+                            border-radius: 10px !important;
+                        }
+                        .bg-image-4{
+                            border-radius: 10px !important;
+                        }
+                        .bg-image-5{
+                            border-radius: 10px !important;
+                        }
+                        .bg-image-6{
+                            border-radius: 10px !important;
+                        }
+                        .ignore_3{
+                            font-size: 34px;
+                        }
+                        .ignore_2{
+                            font-size: 30px;
+                        }
+                        .inpt{
+                            width: 100% !important;
                         }
                     }
                     

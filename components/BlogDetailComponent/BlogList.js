@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import CardsBlog from './cardsComponent/CardsBlog'
 import Head from 'next/head';
-import Footer from '../FooterComponent/Footer';
-// import Header from '../Header';
-
+import BlogDtailInner from './Blogdetailinnercomponent/BlogdetailInner'
+import RelatedPost from './RelatedPostcomponent/relatedPost'
+import Footer from './FooterComponent/Footer'
 
 const rowIndex = {
     alignItems: 'baseline',
@@ -30,13 +29,14 @@ class BlogList extends Component{
                                     </div>
                                 </div>
                                 <div className="col-lg-6 pb-5 mb-5 text-center">
-                                    <img src='./blog/group_66.png' className="w-50"/>
+                                    <img src='./blogdetails/banner_img.png' className="w-50"/>
                                 </div>
                             </div>
                         </div>
                 </div>
-               <CardsBlog/>
-               <Footer/>
+                <BlogDtailInner/>
+                <RelatedPost/>
+                <Footer/>
                 <style jsx>{`
                         .bg-image{
                             background-image: url(./images/Banner.png);
