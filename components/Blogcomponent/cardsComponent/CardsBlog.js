@@ -243,22 +243,22 @@ class CardsBlog extends Component{
                                 <h1 className="categories mt-5 pt-lg-3 mb-2">instagram</h1>
                                 <img src="./images/line.png" className="" />
                                 <div className="row mt-4 pt-2">
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img1.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img2.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 mt-2 pr-0">
+                                    <div className="col-md-4 col-6 mt-2 pr-0">
                                         <img src="./blog/insta_img3.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img4.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img5.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 mt-2 pr-0">
+                                    <div className="col-md-4 col-6 mt-2 pr-0">
                                         <img src="./blog/insta_img6.png" className="w-100"/>
                                     </div>
                                 </div>
