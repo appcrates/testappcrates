@@ -261,6 +261,10 @@ class Footer extends Component{
                     .imgssss{
                         margin-top: 9px;
                     }
+                    .better{
+                        color: #345771;
+                        font-weight: 800;
+                    }
                     .shape{
                         width: 12%;
                         margin-left: 4px;
@@ -289,6 +293,12 @@ class Footer extends Component{
                             font-size: 30px;
                         }
                     }
+                    @media only screen and (max-width: 440px){
+                        .imgs_data{
+                            width: 8%;
+                            margin-top: -5px;
+                        }
+                    }                   
                 `}</style>
             </div>
         )

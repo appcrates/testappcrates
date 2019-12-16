@@ -227,6 +227,14 @@ componentDidMount = () =>{
                             font-size: 34px;
                         }
                     }
+                    @media only screen and (max-width: 440px){
+                        .ignore_3{
+                            font-size: 34px;
+                        }
+                        .imgs_data{
+                            width: 8% !important;
+                        }
+                    }
                 `}</style>
             </div>
         )

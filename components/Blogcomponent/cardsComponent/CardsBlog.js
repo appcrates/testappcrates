@@ -44,7 +44,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ class CardsBlog extends Component{
                                         <span className="border_left ml-3 pl-3 john_deo">JOHN DEO</span></h6>
                                         <h4 className="card-title">Lorem ipsum dolor sit conseur adipiscing elit sit amet</h4>
                                         <p className="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                        <a href="#" className="learn-more">Learn More</a>
+                                        <a href="https://appcrates.herokuapp.com/BlogDetail" className="learn-more">Learn More</a>
                                     </div>
                                 </div>
                             </div>

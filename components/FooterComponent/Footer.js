@@ -139,6 +139,9 @@ class Footer extends Component{
                     .copy-right_1{
                         font-size: 13px;
                     }
+                    .container{
+                        width: 90% !important;
+                    }
                     .bnt{
                         height: 58px;
                         width: 176px;
@@ -147,6 +150,10 @@ class Footer extends Component{
                         background-color: #fbde06;
                         border: 1px solid #fbde06;
                         border-radius: 30px;
+                    }
+                    .better{
+                        color: #345771;
+                        font-weight: 800;
                     }
                     .banner_7{
                         background-image: url(./images/join_video.png);
