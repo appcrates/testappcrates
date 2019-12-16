@@ -14,6 +14,12 @@ class BlogDtailInner extends Component {
                 $('.active').removeClass('active')
                 $(this).addClass('active');
             });
+            $('.bnt_one').bind('click', function () {
+                $('.active-1').removeClass('active-1')
+                $(this).addClass('active-1');
+            });
+            $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+            $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
         });
     }
     render() {
@@ -135,19 +141,89 @@ class BlogDtailInner extends Component {
 
                         <div className="col-md-4 pl-lg-5 mt-lg-0 mt-5">
                             <div className="bg-color-1">
-                                <input type="text" className="form-control1 border-0 pb-3 m-0 float-left" placeholder="Search" />
+                                <input type="text" className="form-control border-0 pb-4 m-0 inputs float-left" placeholder="Search" />
                                 <i className="fa fa-search mt-1 arrow_2"></i>
                             </div>
                             <div>
-                                <h1 className="categories mt-5 pt-lg-3 mb-2">Categ<img src="./blog/post_icon.png" className="layer-1"/>ries</h1>
+                                <h1 className="categories mt-5 mb-0">Categ<img src="./blog/post_icon.png" className="layer-1"/>ries</h1>
                                 <img src="./images/line.png" className="" />
+                                <div className="row mt-4 mb-2">
+                                    <div className="col-2">
+                                        <img src="./blog/findyourtribe.png" />
+                                    </div>
+                                    <div className="col-10 pl-0">
+                                        <h4 className="find_your">find your tribe</h4>
+                                    </div>
+                                </div>
+                                <div className="row mb-2">
+                                    <div className="col-2">
+                                        <img src="./blog/real_accountability.png" />
+                                    </div>
+                                    <div className="col-10 pl-0 pr-0">
+                                        <h4 className="find_your">real accountability </h4>
+                                    </div>
+                                </div>
+                                <div className="row mb-2">
+                                    <div className="col-2">
+                                        <img src="./blog/data_drive.png" />
+                                    </div>
+                                    <div className="col-10 pl-0 pr-0">
+                                        <h4 className="find_your">data driven</h4>
+                                    </div>
+                                </div>
+                                <div className="row mb-2">
+                                    <div className="col-2">
+                                        <img src="./blog/apply.png" />
+                                    </div>
+                                    <div className="col-10 pl-0 pr-0">
+                                        <h4 className="find_your mt-0">apply & get matched with your tribe</h4>
+                                    </div>
+                                </div>
+                                <div className="row mb-2">
+                                    <div className="col-2">
+                                        <img src="./blog/meetweekly.png" />
+                                    </div>
+                                    <div className="col-10 pl-0 pr-0">
+                                        <h4 className="find_your mt-0">meet weekly in a curated small group</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="tags">
+                                <h1 className="categories mt-5 mb-0">Tag</h1>
+                                <img src="./images/line.png" className="" />
+                                <div className="row mt-4 mb-3 pt-3">
+                                    <div className="col-4 pr-0">
+                                        <a href="" className="bnt-3 bnt_one">Lorem Ipsu</a>
+                                    </div>
+                                    <div className="col-4 pl-1">
+                                        <a href="" className="bnt-4 bnt_one">Faucibus</a>
+                                    </div>
+                                    <div className="col-4 pl-0">
+                                        <a href="" className="bnt-4 bnt_one">Imperdiet</a>
+                                    </div>
+                                </div>
+                                <div className="row mt-2 mb-3">
+                                    <div className="col-6 pr-0">
+                                        <a href="" className="bnt-5 bnt_one active-1">Bibendstum</a>
+                                    </div>
+                                    <div className="col-6 pl-0">
+                                        <a href="" className="bnt-5 bnt_one ">Fermentum</a>
+                                    </div>
+                                </div>
+                                <div className="row mt-2 mb-3">
+                                    <div className="col-4 pr-0">
+                                        <a href="" className="bnt-6 bnt_one ">Auctor</a>
+                                    </div>
+                                    <div className="col-4 pl-1">
+                                        <a href="" className="bnt-6 bnt_one ">Curabur</a>
+                                    </div>
+                                    <div className="col-4 pl-0">
+                                        <a href="" className="bnt-6 bnt_one ">Pharetra</a>
+                                    </div>
+                                </div>
                             </div>
                             <div>
-                                <h1 className="categories mt-5 pt-lg-3 mb-2">Tag</h1>
-                                <img src="./images/line.png" className="" />
-                            </div>
-                            <div>
-                                <h1 className="categories mt-5 pt-lg-3 mb-2">recent p<img src="./blog/post_icon.png" className="layer-1"/>st</h1>
+                                <h1 className="categories mt-5 mb-0">recent p<img src="./blog/post_icon.png" className="layer-1"/>st</h1>
                                 <img src="./images/line.png" className="" />
 
                                 <div>
@@ -198,32 +274,32 @@ class BlogDtailInner extends Component {
                                 </div>
                             </div>
                             <div>
-                                <h1 className="categories mt-5 pt-lg-3 mb-2">Text widget</h1>
+                                <h1 className="categories mt-5 mb-0">Text widget</h1>
                                 <img src="./images/line.png" className="" />
                                 <div>
                                     <p className="text-field">Lorem ipsum dolor sit asmet secfeturi adipiscing elit Ut ut ndu Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  when an unknown printer took a galley of type and scrambled </p>
                                 </div>
                             </div>
                             <div>
-                                <h1 className="categories mt-5 pt-lg-3 mb-2">instagram</h1>
+                                <h1 className="categories mt-5 mb-0">instagram</h1>
                                 <img src="./images/line.png" className="" />
                                 <div className="row mt-4 pt-2">
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img1.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img2.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 mt-2 pr-0">
+                                    <div className="col-md-4 col-6 mt-2 pr-0">
                                         <img src="./blog/insta_img3.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img4.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 pr-0 mt-2">
+                                    <div className="col-md-4 col-6 pr-0 mt-2">
                                         <img src="./blog/insta_img5.png" className="w-100"/>
                                     </div>
-                                    <div className="col-md-4 mt-2 pr-0">
+                                    <div className="col-md-4 col-6 mt-2 pr-0">
                                         <img src="./blog/insta_img6.png" className="w-100"/>
                                     </div>
                                 </div>
@@ -237,6 +313,52 @@ class BlogDtailInner extends Component {
                         font-size: 14px;
                         font-weight: 700;
                         color: #cd3838;
+                    }
+                    .bnt-3{
+                        border: 1px solid gray;
+                        padding: 7px 11px;
+                        border-radius: 20px;
+                        font-size: 13px;
+                        color: #848793;
+                    }
+                    .bnt-4{
+                        border: 1px solid gray;
+                        padding: 7px 21px;
+                        border-radius: 20px;
+                        font-size: 13px;
+                        color: #848793;
+                    }
+                    .bnt_one:hover{
+                        background-color: #19b582;
+                        color: white;
+                        text-decoration: none;
+                        border: 1px solid #19b582;
+                    }
+                    .active-1{
+                        background-color: #19b582; 
+                        border: 1px solid #19b582 !important;
+                        color: white !important;
+                    }
+                    .bnt-6{
+                        border: 1px solid gray;
+                        padding: 7px 24px;
+                        border-radius: 20px;
+                        font-size: 13px;
+                        color: #848793;
+                    }
+                    .bnt-5{
+                        border: 1px solid gray;
+                        padding: 7px 33px;
+                        border-radius: 20px;
+                        font-size: 13px;
+                        color: #848793;
+                    }
+                    .find_your{
+                        font-size: 16px;
+                        margin-top: 9px;
+                        font-weight: 900;
+                        color: #355872;
+                        text-transform: uppercase;
                     }
                     .learn-more:hover{
                         text-decoration: none;
@@ -399,8 +521,11 @@ class BlogDtailInner extends Component {
                     .bg-color-1{
                         background-color:white;
                         border-radius: 34px;
-                        padding: 17px 20px;
+                        padding: 14px 20px;
                         border: 1px solid lightgray;
+                    }
+                    .inputs{
+                        width: 93% !important;
                     }
                     .form-control2{
                         width: 100% !important;
