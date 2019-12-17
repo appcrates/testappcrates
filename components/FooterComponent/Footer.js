@@ -65,7 +65,7 @@ class Footer extends Component{
                             <div className="col-md-7">
                                 <div className="mt-3 pl-md-5">
                                     <input type="text" className="form-contro inpt m-auto" name="" placeholder="Enter Your Email Address" />
-                                    <button className="bnt_2 mt-3">JOIN US</button>
+                                    <button className="bnt_2 mt-3">JOIN US COMMUNITY</button>
                                 </div>
                             </div>
                         </div>
@@ -219,6 +219,11 @@ class Footer extends Component{
                         font-weight: 700;
                         font-size: 20px;
                         margin-left: 5px;
+                        box-shadow: 0px 0px 10px 2px #0d8a91;
+                    }
+                    .bnt_2:hover{
+                        background-color: transparent;
+                        color: white;
                     }
                     .community{
                         margin-top: -5px;
@@ -276,6 +281,10 @@ class Footer extends Component{
                     ul li h6{
                         font-weight: 600;
                         cursor: pointer;
+                        color: #696969;
+                    }
+                    input::placeholder{
+                        color: #999fa5;
                     }
                     ul li h6:hover{
                         color: #ca3535 !important;

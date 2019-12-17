@@ -28,8 +28,8 @@ class BlogList extends Component{
                                         </h1>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 pb-5 mb-5 text-center">
-                                    <img src='./blogdetails/banner_img.png' className="w-50"/>
+                                <div className="col-lg-6 banner_setting text-center">
+                                    <img src='./blogdetails/banner_img.png' className="group_66"/>
                                 </div>
                             </div>
                         </div>
@@ -46,6 +46,12 @@ class BlogList extends Component{
                         }
                         .blog_page{
                             font-size: 64px;
+                        }
+                        .banner_setting{
+                            padding-bottom: 75px;
+                        }
+                        .group_66{
+                            width: 60%;
                         }
                         .layer{
                             width: 10.5%;

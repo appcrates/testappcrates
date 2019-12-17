@@ -110,10 +110,10 @@ class BlogDtailInner extends Component {
                                     </div>
                                 </form>
                                 <div>
-                                    <h6 className="card-title2">2 COMMENT</h6>
-                                    <div className="row">
+                                    <h6 className="card-title2">2 COMMENTS</h6>
+                                    <div className="row mt-4">
                                         <div className="col-md-7">
-                                            <h6 className="card-title-1 pb-0 mb-0 pt-2"><img src="./blogdetails/dp.png" /><span className="mt-1 ml-2 john_deo">JOHN DEO</span> OCT, 22, 2019
+                                            <h6 className="card-title-1 pb-0 mb-0 pt-3"><img src="./blogdetails/dp.png" /><span className="mt-1 ml-2 john_deo">JOHN DEO</span> OCT, 22, 2019
                                             </h6>
                                         </div>
                                         <div className="col-md-5 mt-4 text-right">
@@ -141,8 +141,9 @@ class BlogDtailInner extends Component {
 
                         <div className="col-md-4 pl-lg-5 mt-lg-0 mt-5">
                             <div className="bg-color-1">
-                                <input type="text" className="form-control border-0 pb-4 m-0 inputs float-left" placeholder="Search" />
-                                <i className="fa fa-search mt-1 arrow_2"></i>
+                                <input type="text" className="form-control border-0 inpt float-left pb-4 m-0" placeholder="Search" />
+                                {/* <i className="fa fa-search mt-1 arrow_2"></i> */}
+                                <img src="./blog/search_icon.png" className="arrow_2" />
                             </div>
                             <div>
                                 <h1 className="categories mt-5 mb-0">Categ<img src="./blog/post_icon.png" className="layer-1"/>ries</h1>
@@ -320,6 +321,10 @@ class BlogDtailInner extends Component {
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
+                    }
+                    .inpt{
+                        width: 92% !important;
                     }
                     .bnt-4{
                         border: 1px solid gray;
@@ -327,6 +332,7 @@ class BlogDtailInner extends Component {
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
                     }
                     .bnt_one:hover{
                         background-color: #19b582;
@@ -338,6 +344,7 @@ class BlogDtailInner extends Component {
                         background-color: #19b582; 
                         border: 1px solid #19b582 !important;
                         color: white !important;
+                        box-shadow: 0px 6px 20px 3px #dedede;
                     }
                     .bnt-6{
                         border: 1px solid gray;
@@ -345,6 +352,7 @@ class BlogDtailInner extends Component {
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
                     }
                     .bnt-5{
                         border: 1px solid gray;
@@ -352,6 +360,7 @@ class BlogDtailInner extends Component {
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
                     }
                     .find_your{
                         font-size: 16px;
@@ -391,7 +400,7 @@ class BlogDtailInner extends Component {
                         background-color: white;
                         height: 40px;
                         width: 40px;
-                        padding: 7px 9px;
+                        padding: 6px 9px;
                         color: gray;
                         border-radius: 100%;
                         margin-left: 9px;
@@ -446,11 +455,12 @@ class BlogDtailInner extends Component {
                         text-transform: uppercase; 
                     }
                     .card-title1{
-                        font-size: 30px !important;
+                        font-size: 34px !important;
                         font-weight: 800 !important;
                         color: #355872;
                         margin-top: 30px;
-                        text-transform: uppercase; 
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
                     }
                     .card-title2{
                         font-size: 25px !important;
@@ -477,6 +487,7 @@ class BlogDtailInner extends Component {
                     }
                     .john_deo{
                         color: #020202 !important;
+                        font-weight: 800;
                     }
                     .card-title-1{
                         font-size: 12px;
@@ -563,6 +574,8 @@ class BlogDtailInner extends Component {
                     }
                     .arrow_2{
                         color: #d7d6d6;
+                        cursor: pointer;
+                        width: 6%;
                     }
                     @media only screen and (min-width: 993px){
                         .container {

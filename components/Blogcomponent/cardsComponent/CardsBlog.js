@@ -175,7 +175,8 @@ class CardsBlog extends Component{
                         <div className="col-md-4 pl-lg-5 mt-lg-0 mt-5">
                             <div className="bg-color-1">
                                 <input type="text" className="form-control border-0 pb-3 m-0 float-left" placeholder="Search" />
-                                <i className="fa fa-search mt-1 arrow_2"></i>
+                                {/* <i className="fa fa-search mt-1 arrow_2"></i> */}
+                                <img src="./blog/search_icon.png" className="arrow_2" />
                             </div>
                             <div>
                                 <h1 className="categories mt-5 mb-2">Categ<img src="./blog/post_icon.png" className="layer-1"/>ries</h1>
@@ -349,9 +350,10 @@ class CardsBlog extends Component{
                     }
                     .bnt-3{
                         border: 1px solid gray;
-                        padding: 7px 11px;
+                        padding: 7px 9px;
                         border-radius: 20px;
                         font-size: 13px;
+                        font-weight: 700;
                         color: #848793;
                     }
                     .bnt-4{
@@ -360,6 +362,7 @@ class CardsBlog extends Component{
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
                     }
                     .bnt_one:hover{
                         background-color: #19b582;
@@ -371,6 +374,7 @@ class CardsBlog extends Component{
                         background-color: #19b582; 
                         border: 1px solid #19b582 !important;
                         color: white !important;
+                        box-shadow: 0px 6px 20px 3px #dedede;
                     }
                     .bnt-6{
                         border: 1px solid gray;
@@ -378,6 +382,7 @@ class CardsBlog extends Component{
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
                     }
                     .bnt-5{
                         border: 1px solid gray;
@@ -385,6 +390,7 @@ class CardsBlog extends Component{
                         border-radius: 20px;
                         font-size: 13px;
                         color: #848793;
+                        font-weight: 700;
                     }
                     .learn-more:hover{
                         text-decoration: none;
@@ -396,7 +402,7 @@ class CardsBlog extends Component{
                     }
                     .bg-color{
                         background-color: white;
-                        box-shadow: 0px 8px 15px 0px #e7e7e7;
+                        box-shadow: 0px 16px 25px 0px #e7e7e7;
                         border-top-right-radius: 10px;
                         border-bottom-right-radius: 10px;
                     }
@@ -433,6 +439,7 @@ class CardsBlog extends Component{
                     }
                     .john_deo{
                         color: #020202 !important;
+                        font-weight: 800 !important;
                     }
                     .card-title-1{
                         font-size: 12px;
@@ -464,6 +471,7 @@ class CardsBlog extends Component{
                         margin-top: 9px;
                         font-weight: 900;
                         color: #355872;
+                        cursor: pointer;
                         text-transform: uppercase;
                     }
                     .categories{
@@ -591,6 +599,8 @@ class CardsBlog extends Component{
                     }
                     .arrow_2{
                         color: #d7d6d6;
+                        cursor: pointer;
+                        width: 6%;
                     }
                     @media only screen and (min-width: 993px){
                         .container {
