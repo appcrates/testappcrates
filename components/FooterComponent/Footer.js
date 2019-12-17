@@ -27,7 +27,7 @@ class Footer extends Component{
             <div>
                 <div className="banner_7">
                     <div className="container pt-lg-5">
-                        <div className="row mt-5">
+                        <div className="row mt-5 pl-lg-5 ml-lg-5">
                             <div className="col-lg-7">
                                 <h4 className="text-white join_us_1">INSTAGRAM</h4>
                                 <h1 className="ignore_3 community text-white">#BETTERT<img src="./images/Layer_121.png" className="imgs_data" style={Shape}/>GETHER</h1>
@@ -46,7 +46,7 @@ class Footer extends Component{
                     </div>
                     <div className="container container_1 pt-5">
                         <div className="border_top"></div>
-                        <div className="row">
+                        <div className="row ml-lg-5 pl-lg-5">
                             <div className="col-lg-5">
                                 <h4 className="text-white join_us_1">JOIN US!</h4>
                                 <h1 className="ignore_2 community text-white">C<img src="./images/Layer_121.png" className="imgs_data"/>MMUNITY</h1>
@@ -150,6 +150,7 @@ class Footer extends Component{
                         background-color: #fbde06;
                         border: 1px solid #fbde06;
                         border-radius: 30px;
+                        box-shadow: 0px 0px 10px 0px #0f8f8c;
                     }
                     .better{
                         color: #345771;
@@ -160,8 +161,7 @@ class Footer extends Component{
                         background-position: center center;
                         background-size: cover;
                         background-repeat: no-repeat;
-                        height: auto;
-                        padding-bottom: 215px;
+                        padding-bottom: 100px;
                         margin-top: 90px;
                         padding-top: 70px;
                     }
@@ -184,9 +184,10 @@ class Footer extends Component{
                         font-weight: 600;
                         letter-spacing: .7px;
                         cursor: pointer;
+                        color: #696969;
                     }
                     .imgs_data{
-                        width: 10%;
+                        width: 7%;
                         margin-top: -8px;
                     }
                     .brdss:hover{
@@ -195,6 +196,7 @@ class Footer extends Component{
                     .copy_right{
                         font-weight: 600;
                         letter-spacing: 1.06px;
+                        color: #696969;
                     }
                     .join_us_1{
                         font-size: 21px;
@@ -219,7 +221,7 @@ class Footer extends Component{
                         font-weight: 700;
                         font-size: 20px;
                         margin-left: 5px;
-                        box-shadow: 0px 0px 10px 2px #0d8a91;
+                        box-shadow: 0px 6px 15px 2px #0a7379;
                     }
                     .bnt_2:hover{
                         background-color: transparent;

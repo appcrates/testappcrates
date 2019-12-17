@@ -113,7 +113,7 @@ class BlogDtailInner extends Component {
                                     <h6 className="card-title2">2 COMMENTS</h6>
                                     <div className="row mt-4">
                                         <div className="col-md-7">
-                                            <h6 className="card-title-1 pb-0 mb-0 pt-3"><img src="./blogdetails/dp.png" /><span className="mt-1 ml-2 john_deo">JOHN DEO</span> OCT, 22, 2019
+                                            <h6 className="card-title-1 pb-0 mb-0"><img src="./blogdetails/dp.png" /><span className="mt-1 ml-2 john_deo">JOHN DEO</span> OCT, 22, 2019
                                             </h6>
                                         </div>
                                         <div className="col-md-5 mt-4 text-right">
@@ -344,7 +344,7 @@ class BlogDtailInner extends Component {
                         background-color: #19b582; 
                         border: 1px solid #19b582 !important;
                         color: white !important;
-                        box-shadow: 0px 6px 20px 3px #dedede;
+                        box-shadow: 0px 6px 20px 0px #19b58230;
                     }
                     .bnt-6{
                         border: 1px solid gray;
@@ -444,6 +444,7 @@ class BlogDtailInner extends Component {
                         font-size: 14px;
                         background-color: #f6fffd;
                         border-left: 4px solid #129675;
+                        font-style: italic;
                     }
                     .img-3{
                         height: 85%;

@@ -240,7 +240,7 @@ class CardsBlog extends Component{
                                     <div className="col-6 pr-0">
                                         <a href="" className="bnt-5 bnt_one active-1">Bibendstum</a>
                                     </div>
-                                    <div className="col-6 pl-0">
+                                    <div className="col-6 pl-2">
                                         <a href="" className="bnt-5 bnt_one ">Fermentum</a>
                                     </div>
                                 </div>
@@ -374,7 +374,7 @@ class CardsBlog extends Component{
                         background-color: #19b582; 
                         border: 1px solid #19b582 !important;
                         color: white !important;
-                        box-shadow: 0px 6px 20px 3px #dedede;
+                        box-shadow: 0px 6px 10px 0px #19b58230;
                     }
                     .bnt-6{
                         border: 1px solid gray;
@@ -473,6 +473,12 @@ class CardsBlog extends Component{
                         color: #355872;
                         cursor: pointer;
                         text-transform: uppercase;
+                    }
+                    .number:focus{
+                        outline: none;
+                    }
+                    .number{
+                        box-shadow: none;
                     }
                     .categories{
                         font-size: 31px;
