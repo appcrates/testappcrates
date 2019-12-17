@@ -368,6 +368,7 @@ class BlogDtailInner extends Component {
                         font-weight: 900;
                         color: #355872;
                         text-transform: uppercase;
+                        cursor: pointer;
                     }
                     .learn-more:hover{
                         text-decoration: none;
