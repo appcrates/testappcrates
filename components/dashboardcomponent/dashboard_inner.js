@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Dashboardheader from './headercomponent/dashboardHeader';
 import PerformancePage from './PerformanceSection/performancePage';
 import PCategories from './perforCategories/Performacecategorie';
-import DashboardChart from './chart/dashboardChart';
+import Chart from '../dashboardcomponent/chart/nivoBar'
+
 
 
 class Dashboard extends Component{
@@ -16,7 +17,20 @@ class Dashboard extends Component{
                     <Dashboardheader/>
                     <PerformancePage/>
                     <PCategories/>
-                    <DashboardChart/>
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-md-6">
+                                <Chart />
+                            </div>
+                            <div className="col-md-6">
+                                <Chart />
+                            </div>
+                            <div className="col-12">
+                                <Chart />
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             

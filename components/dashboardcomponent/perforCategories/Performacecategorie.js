@@ -365,14 +365,13 @@ class PorformanceCategories extends Component{
                             vertical-align: baseline;
                         }
                     }
-                    @media only screen and (min-width: 1600px){
-                        .focus{
-                            width: 430px;
+                    
+                    @media only screen and (min-width: 1550px) and (max-width: 2100px){
+                        .heading-1 {
+                            line-height: 22px !important;
                         }
-                    }
-                    @media only screen and (min-width: 1900px){
-                        .focus{
-                            width: 530px;
+                        .input-group{
+                            width: 100% !important;
                         }
                     }
                     

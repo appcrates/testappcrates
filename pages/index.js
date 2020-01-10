@@ -233,8 +233,8 @@ class Jquery extends Component{
         let userFeed = new Instafeed({
             get: 'user',
             userId: '14562296571',
-            clientId: process.env.IG_CLIENT_ID,
-            accessToken:  process.env.IG_ACCESS_TOKEN,
+            clientId: 'e5ac6df224d338e950fe848c4192ce40',
+            accessToken: '14562296571.1677ed0.26cf3e0acecd44628f932b41cd746563',
             resolution: 'standard_resolution',
             template: '<div class="col-md-2 mt-2 col-6"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="layer_img w-100"/></a></div>',
             sortBy: 'most-recent',

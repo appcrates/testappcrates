@@ -156,6 +156,7 @@ class DashboardHeader extends Component{
                             left: 13px;
                         }
                     }
+                    
             `}</style>
             </div>
             

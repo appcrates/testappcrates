@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import DatetimeRangePicker from 'react-bootstrap-daterangepicker';
 import moment from 'moment';
 
+
 class PorformancePage extends Component{
     constructor(props) {
         super(props);
-    
+
         this.handleApply = this.handleApply.bind(this);
-    
+
         this.state = {
           startDate: moment().subtract(29, 'days'),
           endDate: moment(),
@@ -21,7 +22,7 @@ class PorformancePage extends Component{
           },
         };
       }
-    
+
       handleApply(event, picker) {
         this.setState({
           startDate: picker.startDate,
@@ -53,7 +54,7 @@ class PorformancePage extends Component{
                     </div>
                     <div className="col-md-5 pt-xl-2">
                         <div className="calendar mt-lg-4 mt-2 ml-lg-5">
-                            <DatetimeRangePicker 
+                            <DatetimeRangePicker
                                 className="w-100"
                                 startDate={this.state.startDate}
                                 endDate={this.state.endDate}
@@ -69,7 +70,7 @@ class PorformancePage extends Component{
                                 </div>
                             </DatetimeRangePicker>
                         </div>
-                       
+
                     </div>
                 </div>
                 <div className="border_bottom mt-md-0 mt-3"></div>
@@ -151,11 +152,18 @@ class PorformancePage extends Component{
                         }
                     }
                     @media only screen and (max-width: 810px){
-                        .foucs{
-                            width: 260px;
-                        }
                         .calendar{
                             width: 100%;
+                        }
+                    }
+                    @media only screen and (min-width: 1600px){
+                        .foucs{
+                            width: 430px;
+                        }
+                    }
+                    @media only screen and (min-width: 1900px){
+                        .foucs{
+                            width: 530px;
                         }
                     }
                     `}</style>
