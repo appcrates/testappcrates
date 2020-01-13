@@ -11,7 +11,7 @@ const ignoreStyle = {
     color: '#345771',
 };
 
-class Jquery extends Component{
+class Jquery extends Component {
     constructor(props) {
         super(props)
     }
@@ -23,14 +23,14 @@ class Jquery extends Component{
             $("#plus").hide();
             $(".heading_4").css('color', '#cf4949');
             $("#minus").show();
-            $("#minus").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus").click(function () {
             $(".pera-1").slideUp("slow");
             $("#minus").hide();
             $(".heading_4").css('color', '#345771');
             $("#plus").show();
-            $("#plus").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#plus-1").click(function () {
             $(".pera-2").slideDown("slow");
@@ -38,14 +38,14 @@ class Jquery extends Component{
             $(".pera-2").css('display', 'block');
             $("#plus-1").hide();
             $("#minus-1").show();
-            $("#minus-1").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus-1").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus-1").click(function () {
             $(".pera-2").slideUp("slow");
             $(".heading-1").css('color', '#345771');
             $("#minus-1").hide();
             $("#plus-1").show();
-            $("#plus-1").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus-1").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#plus-2").click(function () {
             $(".pera-3").slideDown("slow");
@@ -53,14 +53,14 @@ class Jquery extends Component{
             $(".pera-3").css('display', 'block');
             $("#plus-2").hide();
             $("#minus-2").show();
-            $("#minus-2").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus-2").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus-2").click(function () {
             $(".pera-3").slideUp("slow");
             $(".heading-2").css('color', '#345771');
             $("#minus-2").hide();
             $("#plus-2").show();
-            $("#plus-2").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus-2").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#plus-3").click(function () {
             $(".pera-4").slideDown("slow");
@@ -68,14 +68,14 @@ class Jquery extends Component{
             $(".pera-4").css('display', 'block');
             $("#plus-3").hide();
             $("#minus-3").show();
-            $("#minus-3").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus-3").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus-3").click(function () {
             $(".pera-4").slideUp("slow");
             $(".heading-3").css('color', '#345771');
             $("#minus-3").hide();
             $("#plus-3").show();
-            $("#plus-3").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus-3").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#plus-4").click(function () {
             $(".pera-5").slideDown("slow");
@@ -83,14 +83,14 @@ class Jquery extends Component{
             $(".pera-5").css('display', 'block');
             $("#plus-4").hide();
             $("#minus-4").show();
-            $("#minus-4").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus-4").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus-4").click(function () {
             $(".pera-5").slideUp("slow");
             $(".heading-4").css('color', '#345771');
             $("#minus-4").hide();
             $("#plus-4").show();
-            $("#plus-4").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus-4").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#plus-5").click(function () {
             $(".pera-6").slideDown("slow");
@@ -98,14 +98,14 @@ class Jquery extends Component{
             $(".pera-6").css('display', 'block');
             $("#plus-5").hide();
             $("#minus-5").show();
-            $("#minus-5").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus-5").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus-5").click(function () {
             $(".pera-6").slideUp("slow");
             $(".heading-5").css('color', '#345771');
             $("#minus-5").hide();
             $("#plus-5").show();
-            $("#plus-5").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus-5").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#plus-6").click(function () {
             $(".pera-7").slideDown("slow");
@@ -113,14 +113,14 @@ class Jquery extends Component{
             $(".pera-7").css('display', 'block');
             $("#plus-6").hide();
             $("#minus-6").show();
-            $("#minus-6").css({'display': 'block', 'margin-left': 'auto'});
+            $("#minus-6").css({ 'display': 'block', 'margin-left': 'auto' });
         });
         $("#minus-6").click(function () {
             $(".pera-7").slideUp("slow");
             $(".heading-6").css('color', '#345771');
             $("#minus-6").hide();
             $("#plus-6").show();
-            $("#plus-6").css({'display': 'block', 'margin-left': 'auto'});
+            $("#plus-6").css({ 'display': 'block', 'margin-left': 'auto' });
         });
 
         $(document).ready(function () {
@@ -251,12 +251,12 @@ class Jquery extends Component{
                 <Head>
                     <title>Better Together</title>
                     <link rel="stylesheet"
-                          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                          crossOrigin="anonymous" />
-                    <link rel="stylesheet" href="https://use.typekit.net/iav6lfa.css"/>
+                        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                        crossOrigin="anonymous" />
+                    <link rel="stylesheet" href="https://use.typekit.net/iav6lfa.css" />
                 </Head>
-                <Header/>
+                <Header />
                 <div>
                     <div className="banner">
                         <div className="container">
@@ -268,13 +268,13 @@ class Jquery extends Component{
                                     <div className="pt-3">
                                         <h5 className="account pl-4 ml-2">Accountable to the</h5>
                                         <h1 className="dreams pl-4 ml-2">Dreams that matter m
-                                            <img src='./images/O_logo.png' className="layer_121 mr-1"/>st
+                                            <img src='./images/O_logo.png' className="layer_121 mr-1" />st
                                         </h1>
                                     </div>
                                     <div className="ml-4 sct">
                                         <div className="mt-3 search_1">
                                             <Subscribe
-                                                customButton={<button type="submit" className="scrh"><img src='./images/Layer_202.png' className="layer_122 text-white"/></button>}
+                                                customButton={<button type="submit" className="scrh"><img src='./images/Layer_202.png' className="layer_122 text-white" /></button>}
                                             />
                                         </div>
                                         <div className="row mt-2">
@@ -307,7 +307,7 @@ class Jquery extends Component{
                                         {/* <img src='./images/group_64.png'   className=" ml-auto" />
                                         // Stats bubbles on the top left of the hero section*/}
                                     </div>
-                                    <img src='./images/Graphix.png' className="w-100 graphix pb-5 mt-xl-5 mt-0 pt-5"/>
+                                    <img src='./images/Graphix.png' className="w-100 graphix pb-5 mt-xl-5 mt-0 pt-5" />
                                 </div>
                             </div>
                         </div>
@@ -315,13 +315,13 @@ class Jquery extends Component{
                     <div className="banner_1 container-fluid mt-md-5 mt-2">
                         <div className="row">
                             <div className="col-md-6 text-right">
-                                <img src= '../images/hands.png'   className="banner_1_img" />
+                                <img src='../images/hands.png' className="banner_1_img" />
                             </div>
                             <div className="col-md-6 sctinss">
                                 <h6 className="text-heading">There's a Dream You</h6>
-                                <h1 className="ignore heading_eight">CAN'T IGN<img src='./images/Layer_123.png' className="heading_eight layer_1212"/>RE.
+                                <h1 className="ignore heading_eight">CAN'T IGN<img src='./images/Layer_123.png' className="heading_eight layer_1212" />RE.
                                 </h1>
-                                <img src='./images/line.png' className="line" alt='Group Holding Hands'/>
+                                <img src='./images/line.png' className="line" alt='Group Holding Hands' />
                                 <p className="pera">You want a better life and know you're capable of accomplishing
                                     more... but you're not as consistent, organized and focused as you should be.</p>
                                 <p className="pera" id="pera">Other things keep getting in the way. You're tried <span
@@ -348,9 +348,9 @@ class Jquery extends Component{
                         <div className="text-center fms">
                             <p className="intro pb-0 mb-0">INTRODUCING A SYSTEM FOR ACHIEVING YOUR GOALS THAT
                                 LEVERAGES</p>
-                            <h1 className="leverage">LEVERAGES THE P<img src='./images/Layer_121.png' className="layer_126"/>WER
+                            <h1 className="leverage">LEVERAGES THE P<img src='./images/Layer_121.png' className="layer_126" />WER
                                 OF COMMUNITY ACCOUNTABILITY</h1>
-                            <img src='./images/Shape_1396.png' className=""/>
+                            <img src='./images/Shape_1396.png' className="" />
                         </div>
 
                     </div>
@@ -361,7 +361,7 @@ class Jquery extends Component{
                             <span className="find_more_1 p-2 tabs-3 heading_eight">DATA DRIVEN</span>
                         </div>
                     </div>
-                    <div className="clear_fix"/>
+                    <div className="clear_fix" />
                     <div className="container-fluid position-relative tabes">
                         <div className="row ">
                             <div className="col-md-9 m-auto ">
@@ -370,10 +370,10 @@ class Jquery extends Component{
                                         <div className="bg_img_1">
                                             <div className="text-left tbs tbs-1 active-1">
                                                 <div className="">
-                                                    <img src='./images/0212.png' className="w-25 pt-4 ml-4 img__12"/>
-                                                    <img src='./images/0312.png' className="w-25 pt-4 ml-4 img__1"/>
+                                                    <img src='./images/0212.png' className="w-25 pt-4 ml-4 img__12" />
+                                                    <img src='./images/0312.png' className="w-25 pt-4 ml-4 img__1" />
                                                     <h4 className="ml-1 tre tribe_121 tribe-1 tribe pb-4 font-weight-italic">FIND
-                                                        YOUR <br/>TRIBE</h4>
+                                                        YOUR <br />TRIBE</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -383,9 +383,9 @@ class Jquery extends Component{
                                         <div className="bg_img_2">
                                             <div className="text-left tbs tbs-2">
                                                 <div className="">
-                                                    <img src='./images/Layer_221.png' className="w-25 pt-4 ml-4 img__13"/>
-                                                    <img src='./images/221.png' className="w-25 pt-4 ml-4 img__2"/>
-                                                    <h4 className="tribe_1 tribe-1 tre pb-4 font-weight-italic">REAL<br/> ACCOUNTABILITY
+                                                    <img src='./images/Layer_221.png' className="w-25 pt-4 ml-4 img__13" />
+                                                    <img src='./images/221.png' className="w-25 pt-4 ml-4 img__2" />
+                                                    <h4 className="tribe_1 tribe-1 tre pb-4 font-weight-italic">REAL<br /> ACCOUNTABILITY
                                                     </h4>
                                                 </div>
                                             </div>
@@ -395,9 +395,9 @@ class Jquery extends Component{
                                         <div className="bg_img_3">
                                             <div className="text-left tbs tbs-3">
                                                 <div className="">
-                                                    <img src='./images/Layer_222.png' className="w-25 pt-4 ml-4 img__14"/>
-                                                    <img src='./images/22.png' className="w-25 pt-4 ml-4 img__3"/>
-                                                    <h4 className="ml-1 pb-4 tre tribe-121-2 tribe-2 font-weight-italic">DATA <br/> DRIVEN
+                                                    <img src='./images/Layer_222.png' className="w-25 pt-4 ml-4 img__14" />
+                                                    <img src='./images/22.png' className="w-25 pt-4 ml-4 img__3" />
+                                                    <h4 className="ml-1 pb-4 tre tribe-121-2 tribe-2 font-weight-italic">DATA <br /> DRIVEN
                                                     </h4>
                                                 </div>
                                             </div>
@@ -411,9 +411,9 @@ class Jquery extends Component{
                         <div className="row pl-lg-5 pl-0 ml-lg-2 ml-0 mt-lg-0 mt-5">
                             <div className="col-md-6 lever">
                                 <div className="ml-auto">
-                                    <h1 className="ignore_3 gether_12 heading_eight" style={ignoreStyle}>LEVERAGE <br/>ACC<img
-                                        src='./images/Layer_123.png' className="layer_1212_1 heading_eight"/>UNTABILITY</h1>
-                                    <img src='./images/line.png' className="underline"/>
+                                    <h1 className="ignore_3 gether_12 heading_eight" style={ignoreStyle}>LEVERAGE <br />ACC<img
+                                        src='./images/Layer_123.png' className="layer_1212_1 heading_eight" />UNTABILITY</h1>
+                                    <img src='./images/line.png' className="underline" />
                                     <p className="real_matter">For what REALLY matters</p>
                                     <p className="pera_1 text-left mt-3">Why do we always get stuff done for a tough
                                         boss often even at the expense of our own health and dreams? The boss holds you
@@ -421,11 +421,11 @@ class Jquery extends Component{
                                         dreams.</p>
                                     <div className="row mt-3">
                                         <div className="col-md-6">
-                                            <h6 className="number121 text-left ">$1000+ <br/> <span className="charity">GOAL DONATIONS</span>
+                                            <h6 className="number121 text-left ">$1000+ <br /> <span className="charity">GOAL DONATIONS</span>
                                             </h6>
                                         </div>
                                         <div className="col-md-6">
-                                            <h6 className="number122 text-left ">$3623+ <br/> <span className="charity">RAISED FOR CHARITY</span>
+                                            <h6 className="number122 text-left ">$3623+ <br /> <span className="charity">RAISED FOR CHARITY</span>
                                             </h6>
                                         </div>
                                     </div>
@@ -433,13 +433,13 @@ class Jquery extends Component{
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <img src= './images/img_copy_2.png' className="w-100" />
+                                <img src='./images/img_copy_2.png' className="w-100" />
                             </div>
                             <div className="col-md-10 mt-4">
                                 <div className="bg-white p-2 boxes">
                                     <div className="row">
                                         <div className="col-md-2 col-4 ">
-                                            <img src='./images/Quate.png' className="w-75 mt-md-0 mt-0"/>
+                                            <img src='./images/Quate.png' className="w-75 mt-md-0 mt-0" />
                                         </div>
                                         <div className="col-md-10 col-8 pr-md-2 pl-md-0 pl-1 pr-2 mt-2 pt-1">
                                             <div className="average average_12">"You are average of the five people you
@@ -456,9 +456,9 @@ class Jquery extends Component{
                             <div className="col-md-6 lever">
                                 <div className="ml-auto">
                                     <h1 className="ignore_1 heading_eight">DATA DRIVEN INSIGHTS INT<img src='./images/Layer_123.png'
-                                                                                                        className="layer_1212_1 heading_eight"/> YOU
+                                        className="layer_1212_1 heading_eight" /> YOU
                                     </h1>
-                                    <img src='./images/line.png' className="under_line"/>
+                                    <img src='./images/line.png' className="under_line" />
                                     <p className="real_matter">Take the 'woo' out of personal development</p>
                                     <p className="pera_1 text-left mt-3">Use our tools to rate your performance each
                                         week in key areas of life, including: focus, clarity, mindfulness, courage,
@@ -469,13 +469,13 @@ class Jquery extends Component{
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <img src='./images/Group_3.png' className="w-100"/>
+                                <img src='./images/Group_3.png' className="w-100" />
                             </div>
                             <div className="col-md-8 mt-4">
                                 <div className="bg-white p-2 boxes">
                                     <div className="row">
                                         <div className="col-md-2 col-4">
-                                            <img src='./images/Quate.png' className="w-75 mt-md-0 mt-1"/>
+                                            <img src='./images/Quate.png' className="w-75 mt-md-0 mt-1" />
                                             {/* <i className="fa fa-quote-left coma"></i> */}
                                         </div>
                                         <div className="col-md-9 col-8 pr-md-2 pl-md-3 pl-1 pr-3 mt-3">
@@ -491,9 +491,9 @@ class Jquery extends Component{
                         <div className="row pl-lg-5 pl-0 ml-lg-2 ml-0 mt-md-3 mt-0">
                             <div className="col-md-6 lever">
                                 <div className="">
-                                    <h1 className="ignore_1 heading_eight" >FIND Y<img src='./images/Layer_123.png' className="heading_eight layer_1212_1"/>UR
+                                    <h1 className="ignore_1 heading_eight" >FIND Y<img src='./images/Layer_123.png' className="heading_eight layer_1212_1" />UR
                                         TRIBE</h1>
-                                    <img src='./images/line.png' className="line-12"/>
+                                    <img src='./images/line.png' className="line-12" />
                                     <h6 className="real_matter">Crowd source your success</h6>
                                     <p className="pera_1 text-left mt-3">The economy is changing. There's more remote
                                         workers, feelancers and enterpreneurs then ever before. This means we're more
@@ -504,7 +504,7 @@ class Jquery extends Component{
                                 </div>
                             </div>
                             <div className="col-md-6 pl-md-3 pl-0 mt-md-0 mt-5">
-                                <img src= './images/img_copy_3.png'   className="w-75 img_3"  />
+                                <img src='./images/img_copy_3.png' className="w-75 img_3" />
                             </div>
                         </div>
                     </div>
@@ -515,14 +515,14 @@ class Jquery extends Component{
                         <div className="container container_1">
                             <div className="row sctins">
                                 <div className="col-lg-6 pt-5">
-                                    <img src='./images/Group_51_copy.png' className="w-100 pl-md-5 pl-0 group_51"/>
+                                    <img src='./images/Group_51_copy.png' className="w-100 pl-md-5 pl-0 group_51" />
                                 </div>
                                 <div className="col-lg-6 sctinsss mt-lg-5 mt-0 ">
                                     <div className="ml-auto">
                                         <h6 className="text-heading-12 text-white">THE SYSTEM CREATED TO REALIZE</h6>
-                                        <h1 className="ignore_21 text-white">MY DREAMS, SHARED WITH <br/> Y<img
-                                            src='./images/Layer_121.png' className="layer_126_1 mr-1"/>U</h1>
-                                        <img src='./images/Shape_1396.png' className="line-1221"/>
+                                        <h1 className="ignore_21 text-white">MY DREAMS, SHARED WITH <br /> Y<img
+                                            src='./images/Layer_121.png' className="layer_126_1 mr-1" />U</h1>
+                                        <img src='./images/Shape_1396.png' className="line-1221" />
                                         <h6 className="heading_2 text-white text-left ">HI! I'M ANDREW, DIGITAL NOMAD,
                                             SOFTWARE ENGINEER AND FOUNDER OF BETTER TOGETHER.</h6>
                                         <p className="pera_2-1 text-white text-left mt-3 ml-2">I realized that it was
@@ -542,8 +542,8 @@ class Jquery extends Component{
                                 <div className="pl-md-5 pl-0 ml-lg-3 ml-0 FREQUENTLY_ASKED">
                                     <p className="pb-0 mb-0 fraq">FREQUENTLY ASKED</p>
                                     <h1 className="ignore-1-1 ">QUESTI<img src='./images/Layer_123.png'
-                                                                           className="layer_12121"/>NS</h1>
-                                    <img src='./images/line.png' className="lnise"/>
+                                        className="layer_12121" />NS</h1>
+                                    <img src='./images/line.png' className="lnise" />
                                 </div>
                                 <div className="row bottom_border pt-md-4 pt-0 pl-md-2 pl-0 ml-1">
                                     <div className="col-1 pl-0">
@@ -553,8 +553,8 @@ class Jquery extends Component{
                                         <p className="heading_12 heading-1">WHAT IS A MASTERMIND?</p>
                                     </div>
                                     <div className="col-4 text-right pr-0 sis">
-                                        <img src='./images/plus.png' className="plus" id="plus-1"/>
-                                        <img src='./images/minus.png' className="minus" id="minus-1"/>
+                                        <img src='./images/plus.png' className="plus" id="plus-1" />
+                                        <img src='./images/minus.png' className="minus" id="minus-1" />
                                     </div>
                                     <div>
                                         <p className="pera-2 ml-lg-4 pl-3 pr-4">we've hosted live retreats in the past,
@@ -573,8 +573,8 @@ class Jquery extends Component{
                                             OTHERS?</p>
                                     </div>
                                     <div className="col-2 text-right pr-0 sis pt-1">
-                                        <img src='./images/plus.png' className="plus" id="plus-2"/>
-                                        <img src='./images/minus.png' className="minus" id="minus-2"/>
+                                        <img src='./images/plus.png' className="plus" id="plus-2" />
+                                        <img src='./images/minus.png' className="minus" id="minus-2" />
                                     </div>
                                     <div>
                                         <p className="pera-3 ml-lg-4 pl-3 pr-4">we've hosted live retreats in the past,
@@ -592,8 +592,8 @@ class Jquery extends Component{
                                         <p className="heading_12 heading-3">HOW DOES BETTER TOGETHER WORK?</p>
                                     </div>
                                     <div className="col-3 text-right pr-0 sis pt-1">
-                                        <img src='./images/plus.png' className="plus" id="plus-3"/>
-                                        <img src='./images/minus.png' className="minus" id="minus-3"/>
+                                        <img src='./images/plus.png' className="plus" id="plus-3" />
+                                        <img src='./images/minus.png' className="minus" id="minus-3" />
                                     </div>
                                     <div>
                                         <p className="pera-4 ml-lg-4 pl-3 pr-4">we've hosted live retreats in the past,
@@ -612,8 +612,8 @@ class Jquery extends Component{
                                             MASTERMIND?</p>
                                     </div>
                                     <div className="col-2 text-right pr-0 sis pt-1">
-                                        <img src='./images/plus.png' className="plus" id="plus-4"/>
-                                        <img src='./images/minus.png' className="minus" id="minus-4"/>
+                                        <img src='./images/plus.png' className="plus" id="plus-4" />
+                                        <img src='./images/minus.png' className="minus" id="minus-4" />
                                     </div>
                                     <div>
                                         <p className="pera-5 ml-lg-5 pr-5 mt-1">we've hosted live retreats in the past,
@@ -632,8 +632,8 @@ class Jquery extends Component{
                                             THAT CAN JOIN THE NETWORK?</p>
                                     </div>
                                     <div className="col-2 text-right pr-0 sis pt-1">
-                                        <img src='./images/plus.png' className="plus" id="plus-5"/>
-                                        <img src='./images/minus.png' className="minus" id="minus-5"/>
+                                        <img src='./images/plus.png' className="plus" id="plus-5" />
+                                        <img src='./images/minus.png' className="minus" id="minus-5" />
                                     </div>
                                     <div>
                                         <p className="pera-6 ml-lg-4 pl-3 pr-4">we've hosted live retreats in the past,
@@ -652,8 +652,8 @@ class Jquery extends Component{
                                             NETWORK?</p>
                                     </div>
                                     <div className="col-2 text-right pr-0 sis pt-1">
-                                        <img src='./images/plus.png' className="plus" id="plus-6"/>
-                                        <img src='./images/minus.png' className="minus" id="minus-6"/>
+                                        <img src='./images/plus.png' className="plus" id="plus-6" />
+                                        <img src='./images/minus.png' className="minus" id="minus-6" />
                                     </div>
                                     <div>
                                         <p className="pera-7 ml-lg-4 pl-3 pr-4">we've hosted live retreats in the past,
@@ -671,8 +671,8 @@ class Jquery extends Component{
                                         <p className="heading_12 heading_4">ARE THERE ANY LIVE EVENTS?</p>
                                     </div>
                                     <div className="col-4 text-right pr-0 sis pt-1">
-                                        <img src='./images/plus.png' className="plus" id="plus"/>
-                                        <img src='./images/minus.png' className="minus" id="minus"/>
+                                        <img src='./images/plus.png' className="plus" id="plus" />
+                                        <img src='./images/minus.png' className="minus" id="minus" />
                                     </div>
                                     <div>
                                         <p className="pera-1 ml-lg-4 pl-3 pr-4">we've hosted live retreats in the past,
@@ -686,11 +686,11 @@ class Jquery extends Component{
                                 <div className="pl-md-5 pl-0 ml-lg-3 ml-0 pt-2 mt-5 FREQUENTLY_ASKED_1">
                                     <p className="pb-0 mb-0 fraq">FREQUENTLY ASKED</p>
                                     <h1 className="ignore-1-1 ">QUESTI<img src='./images/Layer_123.png'
-                                                                           className="layer_12121"/>NS</h1>
-                                    <img src='./images/line.png' className="lnise"/>
+                                        className="layer_12121" />NS</h1>
+                                    <img src='./images/line.png' className="lnise" />
                                 </div>
                                 <div className="text-center ml-1 FREQUENTLY_ASKED_1">
-                                    <img src='./images/FAQ.png' className="faq_img FREQUENTLY_ASKED_1"/>
+                                    <img src='./images/FAQ.png' className="faq_img FREQUENTLY_ASKED_1" />
                                 </div>
 
                             </div>
@@ -700,16 +700,16 @@ class Jquery extends Component{
                         <div className="container pt-5 text-center">
                             <h6 className="pt-5 member">MEMBER</h6>
                             <h1 className="ignore_45 text-white">TESTIM<img src='./images/Layer_121.png'
-                                                                            className="data_image data_image_12"/>NIALS
+                                className="data_image data_image_12" />NIALS
                             </h1>
-                            <img src='./images/Shape_1396.png' className="lnise-1"/>
+                            <img src='./images/Shape_1396.png' className="lnise-1" />
                         </div>
                     </div>
                     <div className="container-fluid">
                         <div className="row cardsss ">
                             <div className="col-md-10 col-12 m-auto">
                                 <div id="carouselExampleIndicators" className="carousel slide h-50"
-                                     data-ride="carousel">
+                                    data-ride="carousel">
                                     <ol className="carousel-indicators">
                                         <li data-target="#carouselExampleIndicators" data-slide-to="0"
                                             className="active"></li>
@@ -800,12 +800,12 @@ class Jquery extends Component{
                                         </div>
                                     </div>
                                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                       data-slide="prev">
+                                        data-slide="prev">
                                         {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span> */}
                                         <span className="sr-only">Previous</span>
                                     </a>
                                     <a className="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                       data-slide="next">
+                                        data-slide="next">
                                         {/* <span className="carousel-control-next-icon" aria-hidden="true"></span> */}
                                         <span className="sr-only">Next</span>
                                     </a>
@@ -907,9 +907,9 @@ class Jquery extends Component{
                         <div className="mt-md-0 mt-5 text-center pt-md-4 pt-0 we_are_better">
                             <h3 className="fraq-1">WE'RE BETTER</h3>
                             <h1 className="ignore_3 gether_12" style={ignoreStyle}>T<img src='./images/Layer_123.png'
-                                                                                         className="data_image"/>GETHER
+                                className="data_image" />GETHER
                             </h1>
-                            <img src='./images/line.png' className="line_1"/>
+                            <img src='./images/line.png' className="line_1" />
                         </div>
                         <div className="row">
                             <div className="col-md-11 m-xl-auto m-lg-0 m-auto">
@@ -917,7 +917,7 @@ class Jquery extends Component{
                                     <div className="col-lg-4 pr-0 col-md-6">
                                         <div className=" bg-img-1 posit">
                                             <div className="text-center mt-4 pt-md-4 pt-5">
-                                                <img src='./images/Layer_262.png' className="layer_262"/>
+                                                <img src='./images/Layer_262.png' className="layer_262" />
                                                 <div className="row">
                                                     <div className="col-md-10 m-auto">
                                                         <h3 className="ignore_6">APPLY & GET MATCHED WITH YOUR
@@ -931,17 +931,17 @@ class Jquery extends Component{
                                     <div className="col-lg-4 col-md-6">
                                         <div className=" bg-img-1">
                                             <div className="text-center mt-4 pt-md-4 pt-5">
-                                                <img src='./images/Layer_263.png' className="layer_262"/>
+                                                <img src='./images/Layer_263.png' className="layer_262" />
                                                 <div className="row">
                                                     <div className="col-2 text-left pl-4">
-                                                        <img src='./images/layer_122.png' className="arrow"/>
+                                                        <img src='./images/layer_122.png' className="arrow" />
                                                     </div>
                                                     <div className="col-8">
-                                                        <h3 className="ignore_6 meet_weekly">MEET WEEKLY <br/>IN A
+                                                        <h3 className="ignore_6 meet_weekly">MEET WEEKLY <br />IN A
                                                             CURATED SMALL GROUP.</h3>
                                                     </div>
                                                     <div className="col-2 pl-1">
-                                                        <img src='./images/layer_122.png' className="arrow-1"/>
+                                                        <img src='./images/layer_122.png' className="arrow-1" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -951,7 +951,7 @@ class Jquery extends Component{
                                     <div className="col-lg-4 col-md-6">
                                         <div className=" bg-img-1 posit_1">
                                             <div className="text-center mt-4 pt-md-4 pt-5">
-                                                <img src='./images/Layer_264.png' className="layer_262"/>
+                                                <img src='./images/Layer_264.png' className="layer_262" />
                                                 <div className="row">
                                                     <div className="col-md-10 m-auto">
                                                         <h3 className="ignore_6">TRACK YOUR PROGRESS USING OUR
@@ -960,7 +960,6 @@ class Jquery extends Component{
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -972,9 +971,9 @@ class Jquery extends Component{
                                 <div className="col-lg-5">
                                     <h4 className="text-white join_us_1">JOIN US!</h4>
                                     <h1 className="ignore_2 community text-white">C<img src='./images/Layer_121.png'
-                                                                                        className="imgs_data"/>MMUNITY
+                                        className="imgs_data" />MMUNITY
                                     </h1>
-                                    <img src='./images/Shape_1396.png' className="shape"/>
+                                    <img src='./images/Shape_1396.png' className="shape" />
                                     <div className="row">
                                         <div className="col-lg-7 pr-0">
                                             <h5 className="text-white font-weight-bold mb-0 chosen_1">MEMBERSHIP DUES
@@ -1007,7 +1006,7 @@ class Jquery extends Component{
                             <div className="col-md-10 m-auto pl-gl-0 pr-lg-0">
                                 <div className="row brde pb-4">
                                     <div className="col-sm-3 col-7">
-                                        <img src='./images/footer_logo.png' className="w-100"/>
+                                        <img src='./images/footer_logo.png' className="w-100" />
                                     </div>
                                     <div className="col-sm-9 mt-3 pr-0">
                                         <div className="float-right pr-2">
@@ -1046,16 +1045,16 @@ class Jquery extends Component{
                                                     </div>
                                                     <div className="col-md-3 mt-md-0 mt-4 pt-md-0 pt-2">
                                                         <a href="https://www.instagram.com/we_are_bettertogether/"
-                                                           target="_blank">
+                                                            target="_blank">
                                                             <div className="msg">
-                                                                <img src='./images/Layer_44.png' className="imgssss"/>
+                                                                <img src='./images/Layer_44.png' className="imgssss" />
                                                             </div>
                                                         </a>
                                                     </div>
                                                     <div className="col-md-4 mt-md-0 mt-2">
                                                         <a href="mailto:andrew@bettertogethermm.com">
                                                             <div className="msg">
-                                                                <img src='./images/Shape_1419.png' className="imgssss"/>
+                                                                <img src='./images/Shape_1419.png' className="imgssss" />
                                                             </div>
                                                         </a>
                                                     </div>

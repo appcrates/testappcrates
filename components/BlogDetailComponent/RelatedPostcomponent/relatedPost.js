@@ -382,6 +382,11 @@ class RelatedPost extends Component {
               font-size: 34px;
             }
           }
+          @media only screen and (min-width: 1590px) {
+            .bg-image {
+              height: 1015px;
+            }
+          }
           @media only screen and (max-width: 440px) {
             .ignore_3 {
               font-size: 34px;

@@ -26,29 +26,6 @@ class Footer extends Component {
     return (
       <div>
         <div className="banner_7">
-          <div className="container pt-lg-5">
-            <div className="row mt-5 pl-lg-5 ml-lg-4">
-              <div className="col-lg-7">
-                <h4 className="text-white join_us_1">INSTAGRAM</h4>
-                <h1 className="ignore_3 community text-white">
-                  #BETTERT
-                  <img
-                    src="./images/Layer_121.png"
-                    className="imgs_data"
-                    style={Shape}
-                  />
-                  GETHER
-                </h1>
-                <img src="./images/Shape_1396.png" className="shape" />
-              </div>
-              <div className="col-lg-5 text-center mt-3">
-                <button className="bnt">
-                  <i className="fa fa-instagram font-weight-bold"></i> FOLLOW US
-                </button>
-              </div>
-            </div>
-          </div>
-
           <div className="container-fluid mt-5">
             <div className="row" id="instafeed"></div>
           </div>
@@ -58,7 +35,11 @@ class Footer extends Component {
               <div className="col-lg-5">
                 <h4 className="text-white join_us_1">JOIN US!</h4>
                 <h1 className="ignore_2 community text-white">
-                  C<img src="./images/Layer_121.png" className="imgs_data mr-1" />
+                  C
+                  <img
+                    src="./images/Layer_121.png"
+                    className="imgs_data mr-1"
+                  />
                   MMUNITY
                 </h1>
                 <img src="./images/Shape_1396.png" className="shape" />
@@ -190,9 +171,9 @@ class Footer extends Component {
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
+            height: 780px;
             padding-bottom: 200px;
-            margin-top: -90px;
-            padding-top: 100px;
+            padding-top: 10px;
           }
           .border_top {
             border-top: 3px solid #36ab9e;
@@ -278,11 +259,11 @@ class Footer extends Component {
             letter-spacing: 0.5px;
           }
           .chosen_1 {
-            font-size: 17px;
+            font-size: 16px;
             margin-left: 3px;
             margin-top: 6px;
             margin-bottom: 5px;
-            letter-spacing: 1px;
+            letter-spacing: 0.4px;
           }
           .ignore_2 {
             width: 100%;
