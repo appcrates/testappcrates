@@ -421,6 +421,11 @@ class GroupNumber2 extends Component {
                         max-width: 13.666667% !important;
                         }
                     }
+                    @media only screen and (max-width: 600px) {
+                        .logo_icon{
+                            width: 9.5%;
+                        }
+                    }
                 `}</style>
             </div>
         )

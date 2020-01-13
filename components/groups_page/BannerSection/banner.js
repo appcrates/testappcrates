@@ -56,6 +56,11 @@ class Banner extends Component {
                     .text_items {
                         align-items: center;
                     }
+                    @media only screen and (max-width: 600px) {
+                        .layer_121{
+                           width: 13%;
+                        }
+                    }
                 `}</style>
             </div>
         );
