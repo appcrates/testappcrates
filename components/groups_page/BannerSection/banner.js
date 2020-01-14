@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import GroupNumber from './group_number/group_number'
-import GroupNumber1 from './group_number01/group_number_1'
-import GroupNumber2 from './group_number02/group_number_2'
-import Footer from './footer/footer'
+import GroupNumber from '../group_number/group_number'
+import GroupNumber1 from '../group_number01/group_number_1'
+import GroupNumber2 from '../group_number02/group_number_2'
+import Footer from '../footer/footer'
 import Header from '../../Header'
 class Banner extends Component {
     render() {
