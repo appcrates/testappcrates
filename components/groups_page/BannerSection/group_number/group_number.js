@@ -83,7 +83,7 @@ class GroupNumber1 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-6 pt-3 htms pb-3">
+                        <div className="col-lg-2 col-md-3 col-6 pt-3 pb-3 responsiveness">
                             <div className="hovereffect">
                                 <img
                                     src="./group/img-3.png"
@@ -170,7 +170,7 @@ class GroupNumber1 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-6 pt-3 htms pb-3">
+                        <div className="col-lg-2 col-md-3 col-6 pt-3 pb-3 responsiveness">
                             <div className="hovereffect">
                                 <img
                                     src="./group/img-8.png"
@@ -263,12 +263,23 @@ class GroupNumber1 extends Component {
                         border: 1px solid #d9e2e3;
                         border-radius: 100%;
                         margin: 0 auto;
+                        cursor: pointer;
                         text-align: center;
+                        color: #93a9b6;
+                    }
+                    .social_icons:hover{
+                        background-color: rgba(206, 50, 50, 0.89);
+                        color: white !important;
+                        border: 1px solid rgba(206, 50, 50, 0.89);
+                    }
+                    button:hover{
+                        background-color: rgba(206, 50, 50, 0.89);
+                        color: white !important;
+                        border: 1px solid rgba(206, 50, 50, 0.89);  
                     }
                     .twitte{
                         padding: 30%;
                         font-size: 15px;
-                        color: #93a9b6;;
                     }
                     .group_text_1 {
                         text-transform: uppercase;
@@ -438,6 +449,15 @@ class GroupNumber1 extends Component {
                         }
                         .hovereffect h2 {
                             padding: 45% 0px;
+                        }
+                        .responsiveness{
+                            display: none;
+                        }
+                        .group_text{
+                            font-size: 45px;
+                        }
+                        .consecr {
+                            font-size: 30px;
                         }
                       }
                 `}</style>

@@ -11,12 +11,12 @@ class Footer extends Component {
       get: "user",
       userId: "14562296571",
       clientId: "e5ac6df224d338e950fe848c4192ce40",
-      accessToken: "14562296571.1677ed0.26cf3e0acecd44628f932b41cd746563",
+      accessToken: "14562296571.1677ed0.a4fc6eca71a941f1b16de9117d510cb2",
       resolution: "standard_resolution",
       template:
         '<div class="col-md-2 mt-2 col-6"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="layer_img w-100"/></a></div>',
       sortBy: "most-recent",
-      limit: 7,
+      limit: 6,
       links: false
     });
     userFeed.run();
@@ -25,13 +25,9 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="banner_7">
-          <div className="container-fluid mt-5">
-            <div className="row" id="instafeed"></div>
-          </div>
+        <div className="banner_7 pt-5">
           <div className="container container_1 pt-5">
-            <div className="border_top"></div>
-            <div className="row pl-lg-5 ml-lg-4">
+            <div className="row pl-lg-5 ml-lg-4 pt-lg-5">
               <div className="col-lg-5">
                 <h4 className="text-white join_us_1">JOIN US!</h4>
                 <h1 className="ignore_2 community text-white">
@@ -69,6 +65,9 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="container-fluid mt-5">
+            <div className="row" id="instafeed"></div>
           </div>
         </div>
         <div className="container pb-5 mt-3 pt-1">
@@ -327,10 +326,13 @@ class Footer extends Component {
               font-size: 30px;
             }
           }
-          @media only screen and (max-width: 440px) {
+          @media only screen and (max-width: 540px) {
             .imgs_data {
               width: 8%;
               margin-top: -5px;
+            }
+            .banner_7 {
+              height: auto !important;
             }
           }
         `}</style>

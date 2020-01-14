@@ -11,12 +11,12 @@ class Footer extends Component {
       get: "user",
       userId: "14562296571",
       clientId: "e5ac6df224d338e950fe848c4192ce40",
-      accessToken: "14562296571.1677ed0.26cf3e0acecd44628f932b41cd746563",
+      accessToken: "14562296571.1677ed0.a4fc6eca71a941f1b16de9117d510cb2",
       resolution: "standard_resolution",
       template:
         '<div class="col-md-2 mt-2 col-6"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" class="layer_img w-100"/></a></div>',
       sortBy: "most-recent",
-      limit: 7,
+      limit: 6,
       links: false
     });
     userFeed.run();
@@ -343,6 +343,12 @@ class Footer extends Component {
               font-size: 30px;
             }
           }
+          @media only screen and (max-width: 540px) {
+            .banner_7 {
+              height: auto !important;
+            }
+          }
+          
         `}</style>
       </div>
     );

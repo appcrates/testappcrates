@@ -83,7 +83,7 @@ class GroupNumber2 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-6 pt-3 htms pb-3">
+                        <div className="col-lg-2 col-md-3 col-6 pt-3 pb-3 responsiveness">
                             <div className="hovereffect_2">
                                 <img
                                     src="./group/img-3.png"
@@ -198,7 +198,7 @@ class GroupNumber2 extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-6 pt-3 htms pb-3">
+                        <div className="col-lg-2 col-md-3 col-6 pt-3 pb-3 responsiveness">
                             <div className="hovereffect_2">
                                 <img
                                     src="./group/img-10.png"
@@ -262,26 +262,30 @@ class GroupNumber2 extends Component {
                         width: 40px;
                         border: 1px solid #d9e2e3;
                         border-radius: 100%;
+                        cursor: pointer;
                         margin: 0 auto;
                         text-align: center;
+                        color: #93a9b6;
+                    }
+                    .social_icons:hover{
+                        background-color: rgba(255, 222, 10, 0.92);
+                        color: black !important;
+                        border: 1px solid rgba(255, 222, 10, 0.92);
+                    }
+                    button:hover{
+                        background-color: rgba(255, 222, 10, 0.92);
+                        color: black !important;
+                        border: 1px solid rgba(255, 222, 10, 0.92); 
                     }
                     .twitte{
                         padding: 30%;
                         font-size: 15px;
-                        color: #93a9b6;;
                     }
                     .group_text_1 {
                         text-transform: uppercase;
                         color: #345771;
                         font-weight: 800;
                         font-size: 59px;
-                    }
-                    .group_text_2 {
-                        text-transform: uppercase;
-                        color: #345771;
-                        font-weight: 800;
-                        font-size: 50px;
-                        padding-top: 100px;
                     }
                     .profile_heading {
                         font-size: 10px;
@@ -425,12 +429,6 @@ class GroupNumber2 extends Component {
                         padding: 4px 11px;
                         border: 1px solid #dee4e9;
                     }
-                    .group_text {
-                        text-transform: uppercase;
-                        color: white;
-                        font-weight: 800;
-                        font-size: 58px;
-                    }
                     .layer_121 {
                         width: 8%;
                         margin-top: -7px;
@@ -456,6 +454,15 @@ class GroupNumber2 extends Component {
                         }
                         .hovereffect_2 h2 {
                             padding: 45% 0px;
+                        }
+                        .responsiveness{
+                            display: none;
+                        }
+                        .group_text_1{
+                            font-size: 45px;
+                        }
+                        .consecr {
+                            font-size: 30px;
                         }
                     }
                 `}</style>
