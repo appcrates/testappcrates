@@ -3,15 +3,16 @@ import GroupNumber from './group_number/group_number'
 import GroupNumber1 from './group_number01/group_number_1'
 import GroupNumber2 from './group_number02/group_number_2'
 import Footer from './footer/footer'
-
+import Header from '../../Header'
 class Banner extends Component {
     render() {
         return (
             <div>
                 <div className="banner_image">
                     <div className="container">
-                        <div className="row text_items">
-                            <div className="col-md-6">
+                    <Header/>
+                        <div className="row text_items pl-lg-5 ml-lg-3 pt-5">
+                            <div className="col-md-6 pt-5">
                                 <div>
                                     <h1 className="group_text">
                                         Gr
@@ -26,10 +27,13 @@ class Banner extends Component {
                         </div>
                     </div>
                 </div>
-                <GroupNumber/>
-                <GroupNumber1/>
-                <GroupNumber2/>
-                <Footer/>
+                <div>
+                    <GroupNumber/>
+                    <GroupNumber1/>
+                    <GroupNumber2/>
+                    <Footer/>
+                </div>
+                
                 <style jsx>{`
                     .profile_heading {
                         font-size: 10px;

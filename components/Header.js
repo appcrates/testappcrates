@@ -55,8 +55,9 @@ const Header = () => {
                 width: 75%;
             }
             .bnt-23:hover{
-                background-color: #fbde06;
+                background-color: #fbde06 !important;
                 color: black;
+                border: 1px solid #fbde06 !important;
             }
             nav li h6{
                 text-transform: uppercase;
@@ -77,7 +78,9 @@ const Header = () => {
             }
             nav .bnt-23{
                 text-transform: uppercase;
-                border: 1px solid #fbde06;
+                border: 1px solid white;
+                color: white;
+                background-color: transparent;
                 border-radius: 25px;
                 padding: 9px 23px;
                 font-weight: 700;

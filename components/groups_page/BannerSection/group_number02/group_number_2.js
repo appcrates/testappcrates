@@ -4,12 +4,12 @@ class GroupNumber2 extends Component {
     render() {
         return (
             <div>
-                <div className="container pb-5">
+                <div className="container pb-5 pl-lg-5">
                     <div className="text-center mt-5 pt-md-3">
                         <h1 className="group_text_1 mb-0">
                             Gr
                             <img src="./group/logo_icon.png" className="logo_icon" />
-                                            ups Number 03
+                            ups Number 03
                         </h1>
                         <img src="./images/line.png" />
                     </div>
@@ -18,8 +18,31 @@ class GroupNumber2 extends Component {
                             <img src="./group/leader_copy_2.png" className="w-100" />
                         </div>
                         <div className="col-md-9 text-left mt-2">
-                            <button className="btn group_leader_2 mt-5">Group Leader</button>
-                            <h4 className="consecr mt-2">consecr adiscing</h4>
+                            <button className="btn group_leader_2">Group Leader</button>
+                            <div className="row">
+                                <div className="col-md-9">
+                                    <h4 className="consecr mt-2 mb-0">consecr adiscing</h4>
+                                </div>
+                                <div className="col-md-3 pr-lg-5 pt-2">
+                                    <div className="row">
+                                        <div className="col-4 pl-lg-1 pr-lg-1">
+                                            <div className="social_icons">
+                                                <i className="fa fa-twitter twitte"></i>
+                                            </div>
+                                        </div>
+                                        <div className="col-4 pl-lg-1 pr-lg-1">
+                                            <div className="social_icons">
+                                                <i className="fa fa-skype twitte"></i>
+                                            </div>
+                                        </div>
+                                        <div className="col-4 pl-lg-1 pr-lg-1">
+                                            <div className="social_icons">
+                                                <i className="fa fa-envelope twitte"></i>
+                                            </div>
+                                        </div>    
+                                    </div>                                        
+                                </div>
+                            </div>
                             <p className="mt-3 pera">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Praesent it is a long established fact that a reader will be
@@ -234,11 +257,24 @@ class GroupNumber2 extends Component {
                     </div>
                 </div>
                 <style jsx>{`
+                    .social_icons{
+                        height: 40px;
+                        width: 40px;
+                        border: 1px solid #d9e2e3;
+                        border-radius: 100%;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                    .twitte{
+                        padding: 30%;
+                        font-size: 15px;
+                        color: #93a9b6;;
+                    }
                     .group_text_1 {
                         text-transform: uppercase;
                         color: #345771;
                         font-weight: 800;
-                        font-size: 50px;
+                        font-size: 59px;
                     }
                     .group_text_2 {
                         text-transform: uppercase;
@@ -251,35 +287,24 @@ class GroupNumber2 extends Component {
                         font-size: 10px;
                         font-weight: 100;
                     }
-                    .hovereffect {
-                        width: 100%;
-                        height: 100%;
-                        float: left;
-                        overflow: hidden;
-                        position: relative;
-                        text-align: center;
-                    }
-                    .hovereffect_1 {
-                        width: 100%;
-                        height: 100%;
-                        float: left;
-                        overflow: hidden;
-                        position: relative;
-                        text-align: center;
-                    }
                     .hovereffect_2 {
                         width: 100%;
                         height: 100%;
                         float: left;
+                        border-radius: 100%;
                         overflow: hidden;
                         position: relative;
                         text-align: center;
                     }
-                    .htms:hover {
-                        box-shadow: 0px 0px 21px 3px lightgrey !important;
-                        border-radius: 100%;
-                        background-color: #dededee0;
-                    }
+                    .hovereffect_2:hover {
+                        box-shadow:
+                          0 47.8px 31.2px rgba(0, 0, 0, 0.034),
+                          0 41.7px 49.3px rgba(0, 0, 0, 0.048),
+                          0 12.5px 10px rgba(0, 0, 0, 0.06),
+                          0 -9.7px 17.9px rgba(0, 0, 0, 0.072),
+                          0 10.8px 33.4px rgba(0, 0, 0, 0.086),
+                          0 14px 31px rgba(0, 0, 0, 0.12);
+                      }
                     
                     .hovereffect_2 .overlay {
                         width: 100%;
@@ -391,12 +416,13 @@ class GroupNumber2 extends Component {
                     }
                     .group_leader_2 {
                         color: #4898ba;
+                        margin-top: 60px;
                         background-color: white;
                         border-radius: 25px;
                         font-weight: 700;
-                        font-size: 19px;
                         text-transform: uppercase;
-                        padding: 4px 15px;
+                        font-size: 15px;
+                        padding: 4px 11px;
                         border: 1px solid #dee4e9;
                     }
                     .group_text {
@@ -424,6 +450,12 @@ class GroupNumber2 extends Component {
                     @media only screen and (max-width: 600px) {
                         .logo_icon{
                             width: 9.5%;
+                        }
+                        .img_Profile{
+                            width: 100%;
+                        }
+                        .hovereffect_2 h2 {
+                            padding: 45% 0px;
                         }
                     }
                 `}</style>
